@@ -112,12 +112,12 @@ public class Movies_Main {
 						correspondence.getFirstRecord().getIdentifier(),
 						correspondence.getSecondRecord().getIdentifier(),
 						correspondence.getSimilarityScore(),
-						correspondence.getFirstRecord().getIdentifier(), correspondence
-								.getFirstRecord().getTitle(), correspondence.getFirstRecord()
-								.getDate().toString("YYYY-MM-DD"), correspondence
-								.getSecondRecord().getIdentifier(), correspondence
-								.getSecondRecord().getTitle(), correspondence.getSecondRecord()
-								.getDate().toString("YYYY-MM-DD")));
+						correspondence.getFirstRecord().getIdentifier(), 
+						correspondence.getFirstRecord().getTitle(),
+						correspondence.getFirstRecord().getDate().toString("YYYY-MM-DD"),
+						correspondence.getSecondRecord().getIdentifier(), 
+						correspondence.getSecondRecord().getTitle(), 
+						correspondence.getSecondRecord().getDate().toString("YYYY-MM-DD")));
 			}
 		}
 	}

@@ -64,7 +64,7 @@ public class CountryFactory extends MatchableFactory<Country>{
         String longtitudeString = getValueFromChildElement(node, "country_longtitude");
         if (longtitudeString != null) {
             double longtitude = Double.parseDouble(longtitudeString);
-            country.setLongtitude(longtitude);
+            country.setLongitude(longtitude);
         }
         
         String latitudeString = getValueFromChildElement(node, "country_latitude");

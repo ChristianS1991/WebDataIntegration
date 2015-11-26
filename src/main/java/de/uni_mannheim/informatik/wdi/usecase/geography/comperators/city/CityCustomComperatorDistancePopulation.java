@@ -20,8 +20,8 @@ public class CityCustomComperatorDistancePopulation extends Comparator<City>{
         lats.add(record1.getLatitude());
         lats.add(record2.getLatitude());
         
-        longs.add(record1.getLongtitude());
-        longs.add(record2.getLongtitude());
+        longs.add(record1.getLongitude());
+        longs.add(record2.getLongitude());
         
         double distance = dist.calculate(lats, longs);
         double population1 = record1.getPopulation();

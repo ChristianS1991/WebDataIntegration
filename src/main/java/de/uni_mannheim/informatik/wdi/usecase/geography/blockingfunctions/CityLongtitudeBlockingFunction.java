@@ -10,9 +10,9 @@ public class CityLongtitudeBlockingFunction extends BlockingFunction<City>{
     @Override
     public String getBlockingKey(City instance) {
         DecimalFormat df = new DecimalFormat("000.0000");
-        Double longtitude = instance.getLongtitude();
+        Double longtitude = instance.getLongitude();
         if(longtitude != null){
-            return df.format(instance.getLongtitude());
+            return df.format(instance.getLongitude());
         }else{
             return "190.0000";
         }

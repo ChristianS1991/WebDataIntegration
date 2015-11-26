@@ -11,6 +11,8 @@ import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Correspondence;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
+import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
+import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.geography.City;
 import de.uni_mannheim.informatik.wdi.usecase.geography.CityFactory;
 import de.uni_mannheim.informatik.wdi.usecase.geography.blockingfunctions.CityBlockingFunction;
@@ -43,6 +45,9 @@ public class MatchDbpCitiesToGnCities {
         
         List<Correspondence<City>> correspondences = engine.runMatching(ds1, ds2);
         
+     // write the correspondences to the output file
+     	engine.writeCorrespondences(correspondences, new File("usecase/geography/output/dbp_cities_geonames_cities_correspondences.csv"));
+        
         printCorrespondences(correspondences);
         System.out.println(correspondences.size());
         
@@ -60,7 +65,10 @@ public class MatchDbpCitiesToGnCities {
                 "Precision: %.4f\nRecall: %.4f\nF1: %.4f", perfTest.getPrecision(),
                 perfTest.getRecall(), perfTest.getF1()));
         
-        
+        DataSet<DefaultRecord> features = engine.generateTrainingDataForLearning(ds1, ds2, gsTest);
+        features.writeCSV(
+        		new File("usecase/geography/output/optimisation/dbp_cities_geonames_cities_features.csv"), 
+        		new DefaultRecordCSVFormatter());
         
     }
     
@@ -77,6 +85,8 @@ public class MatchDbpCitiesToGnCities {
             }
         
         }
+        
+        
     }
     
     

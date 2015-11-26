@@ -43,7 +43,7 @@ public class CityFactory extends MatchableFactory<City> {
         String longtitudeString = getValueFromChildElement(node, "city_longtitude");
         if (longtitudeString != null) {
             double longtitude = Double.parseDouble(longtitudeString);
-            city.setLongtitude(longtitude);
+            city.setLongitude(longtitude);
         }
         
         String elevationString = getValueFromChildElement(node, "city_elevation");

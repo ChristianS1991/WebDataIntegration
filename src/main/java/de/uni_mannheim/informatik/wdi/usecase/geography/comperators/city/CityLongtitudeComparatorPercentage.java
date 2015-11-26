@@ -10,8 +10,8 @@ public class CityLongtitudeComparatorPercentage extends Comparator<City>{
     
     @Override
     public double compare(City record1, City record2) {
-        Double first = record1.getLongtitude();
-        Double second = record2.getLongtitude();
+        Double first = record1.getLongitude();
+        Double second = record2.getLongitude();
         
         if(first < 0 && second < 0){
             first = Math.abs(first);

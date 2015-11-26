@@ -14,7 +14,7 @@ public class Country extends Record{
     private double populationDensity;
     private double gini;
     private double gdp;
-    private double longtitude;
+    private double longitude;
     private double latitude;
     private List<City> cities = new LinkedList<City>();
     
@@ -94,13 +94,13 @@ public class Country extends Record{
     }
 
 
-    public double getLongtitude() {
-        return longtitude;
+    public double getLongitude() {
+        return longitude;
     }
 
 
-    public void setLongtitude(double longtitude) {
-        this.longtitude = longtitude;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
 

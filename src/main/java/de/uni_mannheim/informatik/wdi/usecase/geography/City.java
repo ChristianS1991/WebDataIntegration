@@ -9,7 +9,7 @@ public class City extends Record{
     private double population;
     private double populationDensity;
     private double latitude;
-    private double longtitude;
+    private double longitude;
     private double elevation;
     private double rainfall;
     
@@ -58,12 +58,12 @@ public class City extends Record{
         this.latitude = latitude;
     }
 
-    public double getLongtitude() {
-        return longtitude;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public void setLongtitude(double longtitude) {
-        this.longtitude = longtitude;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
     public double getElevation() {

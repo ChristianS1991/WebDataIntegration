@@ -14,6 +14,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Correspondence;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
+import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.geography.Country;
 import de.uni_mannheim.informatik.wdi.usecase.geography.CountryFactory;
@@ -42,8 +43,8 @@ public class MatchDbpCountriesToWbCountries {
 //        rule.addComparator(new CountryGiniComperatorPercentage(), 0.1);
 //        rule.addComparator(new CountryPopulationDensityComperatorPercentage(), 0.2);
         
-//        CrossProductBlocker<Country> blocker = new CrossProductBlocker<Country>();
-        SortedNeighbourhoodBlocker<Country> blocker = new SortedNeighbourhoodBlocker<Country>(new CountryPopulationBlockingFunction(), 20);
+        CrossProductBlocker<Country> blocker = new CrossProductBlocker<Country>();
+//        SortedNeighbourhoodBlocker<Country> blocker = new SortedNeighbourhoodBlocker<Country>(new CountryPopulationBlockingFunction(), 20);
         
         MatchingEngine<Country> engine = new MatchingEngine<Country>(rule, blocker);
         
@@ -60,7 +61,7 @@ public class MatchDbpCountriesToWbCountries {
         List<Correspondence<Country>> correspondences = engine
                 .runMatching(ds1, ds2);
         
-        
+        engine.writeCorrespondences(correspondences, new File("usecase/geography/output/dbp_countries_wb_countries_correspondences.csv"));
         
         printCorrespondences(correspondences);
         
@@ -79,7 +80,10 @@ public class MatchDbpCountriesToWbCountries {
                 perfTest.getRecall(), perfTest.getF1()));
         
         
-        engine.generateTrainingDataForLearning(ds1, ds2, gsTest).writeCSV(new File("training/countries.csv"), new DefaultRecordCSVFormatter());
+        DataSet<DefaultRecord> features = engine.generateTrainingDataForLearning(ds1, ds2, gsTest);
+        features.writeCSV(
+        		new File("usecase/geography/output/optimisation/dbp_countries_wb_countries_features.csv"), 
+        		new DefaultRecordCSVFormatter());
     }
     
     
