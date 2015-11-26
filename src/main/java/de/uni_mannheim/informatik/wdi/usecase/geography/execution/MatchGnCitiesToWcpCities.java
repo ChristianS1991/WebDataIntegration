@@ -48,8 +48,7 @@ public class MatchGnCitiesToWcpCities {
                 .runMatching(ds1, ds2);
         
         engine.writeCorrespondences(correspondences, new File("usecase/geography/output/wcp_cities_geonames_cities_correspondences.csv"));
-//        printCorrespondences(correspondences);
-//        System.out.println(correspondences.size());
+        printCorrespondences(correspondences);
         
      // load the gold standard (test set)
         GoldStandard gsTest = new GoldStandard();

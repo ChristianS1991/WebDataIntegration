@@ -16,77 +16,73 @@ public class FusableCountryFactory extends MatchableFactory<FusableCountry> impl
 
 	@Override
 	public FusableCountry createModelFromElement(Node node, String provenanceInfo) {
-		String id = getValueFromChildElement(node, "id");
+		String identifier = node.getAttributes().getNamedItem("id").getNodeValue();
 		
 		// create the object with id and provenance information
-		FusableCountry country = new FusableCountry(id, provenanceInfo);
+		FusableCountry country = new FusableCountry(identifier, provenanceInfo);
 		
 		// fill the attributes
-		country.setName(getValueFromChildElement(node, "name"));
-		country.setCode(getValueFromChildElement(node, "code"));
-		try {
-			String area = getValueFromChildElement(node, "area");
-			if(area!=null && !area.isEmpty()){ 
-				country.setArea(Double.valueOf(area));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String population = getValueFromChildElement(node, "population");
-			if(population!=null && !population.isEmpty()){ 
-				country.setPopulation(Double.valueOf(population));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String populationDensity = getValueFromChildElement(node, "population density");
-			if(populationDensity!=null && !populationDensity.isEmpty()){ 
-				country.setPopulationDensity(Double.valueOf(populationDensity));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String gini = getValueFromChildElement(node, "gini");
-			if(gini!=null && !gini.isEmpty()){ 
-				country.setGini(Double.valueOf(gini));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String gdp = getValueFromChildElement(node, "gdp");
-			if(gdp!=null && !gdp.isEmpty()){ 
-				country.setPopulationDensity(Double.valueOf(gdp));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String latitude = getValueFromChildElement(node, "latitude");
-			if(latitude!=null && !latitude.isEmpty()){ 
-				country.setPopulationDensity(Double.valueOf(latitude));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			String longitude = getValueFromChildElement(node, "longitude");
-			if(longitude!=null && !longitude.isEmpty()){ 
-				country.setPopulationDensity(Double.valueOf(longitude));
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
+		 String name = getValueFromChildElement(node, "country_name");
+	        if(name != null){
+	            country.setName(name);
+	        }
+	        
+	        
+	        String code = getValueFromChildElement(node, "country_code");
+	        if(code != null){
+	            country.setCode(code);
+	        }
+	        
+	        
+	        String areaString = getValueFromChildElement(node, "country_area");
+	        if(areaString != null){
+	            double area = Double.parseDouble(areaString);
+	            country.setArea(area);
+	        }
+	        
+	        
+	        String populationString = getValueFromChildElement(node, "country_population");
+	        if(populationString != null){
+	            double population = Double.parseDouble(populationString);
+	            country.setPopulation(population);
+	        }
+	        
+	        
+	        String populationDensityString = getValueFromChildElement(node, "country_population_density");
+	        if(populationDensityString != null){
+	            double populationDensity = Double.parseDouble(populationDensityString);
+	            country.setPopulationDensity(populationDensity);            
+	        }
+
+	        
+	        String giniString = getValueFromChildElement(node, "country_gini");
+	        if(giniString != null){
+	            double gini = Double.parseDouble(giniString);
+	            country.setGini(gini);            
+	        }
+
+	        
+	        String gdpString = getValueFromChildElement(node, "country_gdp");
+	        if(gdpString != null){
+	            double gdp = Double.parseDouble(gdpString);
+	            country.setGdp(gdp);            
+	        }
+
+	        
+	        String longtitudeString = getValueFromChildElement(node, "country_longtitude");
+	        if (longtitudeString != null) {
+	            double longtitude = Double.parseDouble(longtitudeString);
+	            country.setLongitude(longtitude);
+	        }
+	        
+	        String latitudeString = getValueFromChildElement(node, "country_latitude");
+	        if (latitudeString != null) {
+	            double latitude = Double.parseDouble(latitudeString);
+	            country.setLatitude(latitude);
+	        }
+			return country;
 		
 		
-		// load the list of actors
-		List<City> cities = getObjectListFromChildElement(node, "cities", "city", new CityFactory(), provenanceInfo);
-		country.setCities(cities);
-		
-		return country;
 	}
 
 	@Override

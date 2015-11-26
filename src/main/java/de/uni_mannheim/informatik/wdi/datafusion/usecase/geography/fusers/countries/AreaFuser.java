@@ -25,8 +25,12 @@ public class AreaFuser extends AttributeValueFuser<Double, FusableCountry> {
 	@Override
 	public void fuse(RecordGroup<FusableCountry> group,
 			FusableCountry fusedRecord) {
+		
+		// get the fused value
 		FusedValue<Double, FusableCountry> fused = getFusedValue(group);
+		// set the value for the fused record
 		fusedRecord.setArea(fused.getValue());
+		// add provenance info
 		fusedRecord.setAttributeProvenance(FusableCountry.AREA, fused.getOriginalIds());
 	}
 	

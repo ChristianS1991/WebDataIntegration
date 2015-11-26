@@ -6,12 +6,12 @@ public class City extends Record{
      
     private String name;
     private String region;
-    private double population;
-    private double populationDensity;
-    private double latitude;
-    private double longitude;
-    private double elevation;
-    private double rainfall;
+    private Double population;
+    private Double populationDensity;
+    private Double latitude;
+    private Double longitude;
+    private Double elevation;
+    private Double rainfall;
     
     public City(String identifier, String provenance) {
         super(identifier, provenance);
@@ -34,51 +34,51 @@ public class City extends Record{
         this.region = region;
     }
 
-    public double getPopulation() {
+    public Double getPopulation() {
         return population;
     }
 
-    public void setPopulation(double population) {
+    public void setPopulation(Double population) {
         this.population = population;
     }
 
-    public double getPopulationDensity() {
+    public Double getPopulationDensity() {
         return populationDensity;
     }
 
-    public void setPopulationDensity(double populationDensity) {
+    public void setPopulationDensity(Double populationDensity) {
         this.populationDensity = populationDensity;
     }
 
-    public double getLatitude() {
+    public Double getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(double latitude) {
+    public void setLatitude(Double latitude) {
         this.latitude = latitude;
     }
 
-    public double getLongitude() {
+    public Double getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(double longitude) {
+    public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
 
-    public double getElevation() {
+    public Double getElevation() {
         return elevation;
     }
 
-    public void setElevation(double elevation) {
+    public void setElevation(Double elevation) {
         this.elevation = elevation;
     }
 
-    public double getRainfall() {
+    public Double getRainfall() {
         return rainfall;
     }
 
-    public void setRainfall(double rainfall) {
+    public void setRainfall(Double rainfall) {
         this.rainfall = rainfall;
     }
 }

@@ -26,8 +26,13 @@ public class ElevationFuser extends AttributeValueFuser<Double, FusableCity>{
 	public void fuse(RecordGroup<FusableCity> group,
 			FusableCity fusedRecord) {
 		FusedValue<Double, FusableCity> fused = getFusedValue(group);
-		fusedRecord.setElevation(fused.getValue());
-		fusedRecord.setAttributeProvenance(FusableCity.ELEVATION, fused.getOriginalIds());
+		if(fused.getValue()!=null){
+			fusedRecord.setElevation(fused.getValue());
+			fusedRecord.setAttributeProvenance(FusableCity.ELEVATION, fused.getOriginalIds());
+		}else{
+			fusedRecord.setElevation((Double) null);
+		}
+		
 	}
 	
 }

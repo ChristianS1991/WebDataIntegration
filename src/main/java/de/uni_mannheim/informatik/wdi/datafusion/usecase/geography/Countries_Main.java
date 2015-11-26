@@ -20,6 +20,7 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.co
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.CodeEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.GdpEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.GiniEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.LatitudeEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.LongitudeEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.countries.PopulationDensityEvaluationRule;
@@ -28,6 +29,7 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countr
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.CodeFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.GdpFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.GiniFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.LatitudeFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.LongitudeFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.NameFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.countries.PopulationDensityFuser;
@@ -78,7 +80,7 @@ public class Countries_Main {
 		strategy.addAttributeFuser("GINI", new GiniFuser(), new GiniEvaluationRule());
 		strategy.addAttributeFuser("GDP", new GdpFuser(), new GdpEvaluationRule());
 		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
-		
+		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
 		// create the fusion engine
 		DataFusionEngine<FusableCountry> engine = new DataFusionEngine<>(strategy);
 		

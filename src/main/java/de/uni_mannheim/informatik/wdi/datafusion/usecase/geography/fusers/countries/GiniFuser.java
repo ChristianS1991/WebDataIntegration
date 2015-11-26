@@ -26,8 +26,12 @@ public class GiniFuser extends AttributeValueFuser<Double, FusableCountry> {
 	public void fuse(RecordGroup<FusableCountry> group,
 			FusableCountry fusedRecord) {
 		FusedValue<Double, FusableCountry> fused = getFusedValue(group);
-		fusedRecord.setGini(fused.getValue());
-		fusedRecord.setAttributeProvenance(FusableCountry.GINI, fused.getOriginalIds());
+			System.out.println(fused.getValue());
+			if(fused.getValue()!=null){
+				fusedRecord.setGini(fused.getValue());
+				fusedRecord.setAttributeProvenance(FusableCountry.GINI, fused.getOriginalIds());
+			}else{
+				fusedRecord.setGini((Double) null);
+			}
 	}
-	
 }

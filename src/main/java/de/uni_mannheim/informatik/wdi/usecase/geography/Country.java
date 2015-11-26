@@ -1,7 +1,5 @@
 package de.uni_mannheim.informatik.wdi.usecase.geography;
 
-import java.util.LinkedList;
-import java.util.List;
 
 import de.uni_mannheim.informatik.wdi.Record;
 
@@ -9,14 +7,13 @@ public class Country extends Record{
 
     private String name;
     private String code;
-    private double area;
-    private double population;
-    private double populationDensity;
-    private double gini;
-    private double gdp;
-    private double longitude;
-    private double latitude;
-    private List<City> cities = new LinkedList<City>();
+    private Double area;
+    private Double population;
+    private Double populationDensity;
+    private Double gini;
+    private Double gdp;
+    private Double longitude;
+    private Double latitude;
     
     
     public Country(String identifier, String provenance) {
@@ -44,85 +41,74 @@ public class Country extends Record{
     }
 
 
-    public double getArea() {
+    public Double getArea() {
         return area;
     }
 
 
-    public void setArea(double area) {
+    public void setArea(Double area) {
         this.area = area;
     }
 
 
-    public double getPopulation() {
+    public Double getPopulation() {
         return population;
     }
 
 
-    public void setPopulation(double population) {
+    public void setPopulation(Double population) {
         this.population = population;
     }
 
 
-    public double getPopulationDensity() {
+    public Double getPopulationDensity() {
         return populationDensity;
     }
 
 
-    public void setPopulationDensity(double populationDensity) {
+    public void setPopulationDensity(Double populationDensity) {
         this.populationDensity = populationDensity;
     }
 
 
-    public double getGini() {
+    public Double getGini() {
         return gini;
     }
 
 
-    public void setGini(double gini) {
+    public void setGini(Double gini) {
         this.gini = gini;
     }
 
 
-    public double getGdp() {
+    public Double getGdp() {
         return gdp;
     }
 
 
-    public void setGdp(double gdp) {
+    public void setGdp(Double gdp) {
         this.gdp = gdp;
     }
 
 
-    public double getLongitude() {
+    public Double getLongitude() {
         return longitude;
     }
 
 
-    public void setLongitude(double longitude) {
+    public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
 
 
-    public double getLatitude() {
+    public Double getLatitude() {
         return latitude;
     }
 
 
-    public void setLatitude(double latitude) {
+    public void setLatitude(Double latitude) {
         this.latitude = latitude;
     }
-
-
-    public List<City> getCities() {
-        return cities;
-    }
-
-
-    public void setCities(List<City> cities) {
-        this.cities = cities;
-    }
-    
     
     
     

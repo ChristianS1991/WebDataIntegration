@@ -55,26 +55,26 @@ public class FusableCity extends City implements Fusable{
 
 	@Override
 	public Collection<String> getAttributeNames() {
-		return Arrays.asList(new String[] { ELEVATION, LATITUDE, LONGITUDE, NAME, POPULATION_DENSITY, POPULATION, REGION, RAINFALL});
+		return Arrays.asList(new String[] {ELEVATION, LATITUDE, LONGITUDE, NAME, POPULATION_DENSITY, POPULATION, REGION, RAINFALL});
 	}
 
 	@Override
 	public boolean hasValue(String attributeName) {
 		switch(attributeName){
 		case ELEVATION:
-			return getElevation()!=0;
+			return getElevation()!=null;
 		case LATITUDE:
-			return getLatitude()!=0;
+			return getLatitude()!=null;
 		case LONGITUDE:
-			return getLongitude()!=0;
+			return getLongitude()!=null;
 		case NAME:
 			return getName()!=null &&!getName().isEmpty();
 		case POPULATION_DENSITY:
-			return getPopulationDensity()!=0;
+			return getPopulationDensity()!=null;
 		case POPULATION:
-			return getPopulation()!=0;
+			return getPopulation()!=null;
 		case RAINFALL:
-			return getRainfall()!=0;
+			return getRainfall()!=null;
 		case REGION:
 			return getRegion()!=null &&!getRegion().isEmpty();
 		default:
@@ -84,7 +84,7 @@ public class FusableCity extends City implements Fusable{
 	
 	@Override
 	public String toString() {
-		return String.format("[City: %s / %s / %s]", getName(), getRegion(), getLatitude(), getLongitude(), getElevation(), getPopulation(), getPopulationDensity(), getRainfall());
+		return String.format("[City: %s / %s / %s  %s /  %s /  %s /  %s /  %s ]", getName(), getRegion(), getLatitude(), getLongitude(), getElevation(), getPopulation(), getPopulationDensity(), getRainfall());
 	}
 
 }

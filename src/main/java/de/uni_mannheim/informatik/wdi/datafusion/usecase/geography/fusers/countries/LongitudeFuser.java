@@ -26,8 +26,13 @@ public class LongitudeFuser extends AttributeValueFuser<Double, FusableCountry> 
 	public void fuse(RecordGroup<FusableCountry> group,
 			FusableCountry fusedRecord) {
 		FusedValue<Double, FusableCountry> fused = getFusedValue(group);
-		fusedRecord.setLongitude(fused.getValue());
-		fusedRecord.setAttributeProvenance(FusableCountry.LONGITUDE, fused.getOriginalIds());
+			System.out.println(fused.getValue());
+			if(fused.getValue()!=null){
+				fusedRecord.setLongitude(fused.getValue());
+				fusedRecord.setAttributeProvenance(FusableCountry.LONGITUDE, fused.getOriginalIds());
+			}else{
+				fusedRecord.setLongitude((Double) null);
+			}
 	}
 	
 }

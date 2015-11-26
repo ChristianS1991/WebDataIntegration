@@ -28,7 +28,7 @@ public class Average<RecordType extends Matchable & Fusable> extends ConflictRes
 			double count = 0.0;
 			
 			for(FusableValue<Double, RecordType> value : values) {
-				sum += value.getValue();
+				sum += (Double) value.getValue();
 				count++;
 			}
 			

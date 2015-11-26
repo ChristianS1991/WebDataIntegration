@@ -29,6 +29,7 @@ public class DateFuser extends AttributeValueFuser<DateTime, FusableMovie> {
 			FusableMovie fusedRecord) {
 		FusedValue<DateTime, FusableMovie> fused = getFusedValue(group);
 		fusedRecord.setDate(fused.getValue());
+		System.out.println(fused.getOriginalIds());
 		fusedRecord.setAttributeProvenance(FusableMovie.DATE, fused.getOriginalIds());
 	}
 

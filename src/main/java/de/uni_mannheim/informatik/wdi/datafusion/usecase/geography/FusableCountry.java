@@ -65,21 +65,19 @@ private Map<String, Collection<String>> provenance = new HashMap<>();
 		case CODE:
 			return getCode()!=null && !getCode().isEmpty();
 		case AREA:
-			return getArea()!=0;
+			return getArea()!=null;
 		case POPULATION:
-			return getPopulation()!=0;
+			return getPopulation()!=null;
 		case POPULATION_DENSITY:
-			return getPopulationDensity()!=0;
+			return getPopulationDensity()!=null;
 		case GINI:
-			return getGini()!=0;
+			return getGini()!=null;
 		case GDP:
-			return getGdp()!=0;
+			return getGdp()!=null;
 		case LATITUDE:
-			return getLatitude()!=0;
+			return getLatitude()!=null;
 		case LONGITUDE:
-			return getPopulation()!=0;
-		case CITIES:
-			return getCities()!=null && getCities().size()>0;
+			return getLongitude()!=null;
 		default:
 			return false;
 		}

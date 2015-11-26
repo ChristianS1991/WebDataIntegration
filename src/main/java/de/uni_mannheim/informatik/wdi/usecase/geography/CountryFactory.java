@@ -73,7 +73,6 @@ public class CountryFactory extends MatchableFactory<Country>{
             country.setLatitude(latitude);
         }
         
-        country.setCities(getObjectListFromChildElement(node, "cities", "city", new CityFactory(), provenanceInfo));
         
         return country;
     }
