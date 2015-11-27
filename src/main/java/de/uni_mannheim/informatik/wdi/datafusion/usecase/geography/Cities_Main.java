@@ -95,7 +95,7 @@ public class Cities_Main {
 		FusableDataSet<FusableCity> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/fused_cities.xml"), new CityXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/fused_citiesv2.xml"), new CityXMLFormatter());
 		
 		/*// load the gold standard
 		DataSet<FusableCity> gs = new FusableDataSet<>();

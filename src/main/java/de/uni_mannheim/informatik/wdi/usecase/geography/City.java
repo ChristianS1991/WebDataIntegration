@@ -15,7 +15,6 @@ public class City extends Record{
     
     public City(String identifier, String provenance) {
         super(identifier, provenance);
-        // TODO Auto-generated constructor stub
     }
 
     public String getName() {
@@ -81,4 +80,21 @@ public class City extends Record{
     public void setRainfall(Double rainfall) {
         this.rainfall = rainfall;
     }
+    
+    @Override
+	public boolean equals(Object obj) {
+		// simplified equality checking for the union conflict resolution
+		// you should use the IDs here which you also used in the identity resolution
+		if(obj instanceof City) {
+			City c = (City)obj;
+			return getName().equals(c.getName());
+		} else {
+			return false;
+		}
+	}
+	
+	@Override
+	public int hashCode() {
+		return getName().hashCode();
+	}
 }

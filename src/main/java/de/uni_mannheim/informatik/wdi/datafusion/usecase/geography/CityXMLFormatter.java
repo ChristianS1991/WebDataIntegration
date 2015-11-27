@@ -19,6 +19,7 @@ public class CityXMLFormatter extends XMLFormatter<FusableCity>{
 		Element city = doc.createElement("city");
 		
 		city.appendChild(createTextElement("id", record.getIdentifier(), doc));
+		//city.appendChild(createTextElement("name", record.getName(), doc));
 		
 		city.appendChild(createTextElementWithProvenance("name", record.getName(), record.getMergedAttributeProvenance(FusableCity.NAME),doc));
 		city.appendChild(createTextElementWithProvenance("region", record.getRegion(), record.getMergedAttributeProvenance(FusableCity.REGION),doc));

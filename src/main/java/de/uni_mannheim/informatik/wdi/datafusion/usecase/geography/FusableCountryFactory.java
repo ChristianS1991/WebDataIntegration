@@ -10,9 +10,8 @@ import org.w3c.dom.Node;
 import de.uni_mannheim.informatik.wdi.MatchableFactory;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableFactory;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.Actor;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.ActorFactory;
 import de.uni_mannheim.informatik.wdi.usecase.geography.City;
+import de.uni_mannheim.informatik.wdi.usecase.geography.CityFactory;
 
 public class FusableCountryFactory extends MatchableFactory<FusableCountry> implements FusableFactory<FusableCountry>{
 
@@ -83,7 +82,7 @@ public class FusableCountryFactory extends MatchableFactory<FusableCountry> impl
 	            country.setLatitude(latitude);
 	        }
 			
-			List<City> cities = getObjectListFromChildElement(node, "country_cities", "city", new CityFactory(), provenanceInfo);
+			List<City> cities = getObjectListFromChildElement(node, "cities", "city", new CityFactory(), provenanceInfo);
 			country.setCities(cities);
 		
 			return country;

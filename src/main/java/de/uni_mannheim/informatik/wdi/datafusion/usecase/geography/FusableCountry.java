@@ -54,7 +54,7 @@ private Map<String, Collection<String>> provenance = new HashMap<>();
 
 	@Override
 	public Collection<String> getAttributeNames() {
-		return Arrays.asList(new String[] {NAME, CODE, AREA, POPULATION, POPULATION_DENSITY, GINI, GDP, LATITUDE, LONGITUDE});
+		return Arrays.asList(new String[] {NAME, CODE, AREA, POPULATION, POPULATION_DENSITY, GINI, GDP, LATITUDE, LONGITUDE, CITIES});
 	}
 
 	@Override
