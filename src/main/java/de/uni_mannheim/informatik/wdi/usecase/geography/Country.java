@@ -1,6 +1,8 @@
 package de.uni_mannheim.informatik.wdi.usecase.geography;
 
 
+import java.util.List;
+
 import de.uni_mannheim.informatik.wdi.Record;
 
 public class Country extends Record{
@@ -14,6 +16,7 @@ public class Country extends Record{
     private Double gdp;
     private Double longitude;
     private Double latitude;
+    private List<City> cities;
     
     
     public Country(String identifier, String provenance) {
@@ -110,9 +113,14 @@ public class Country extends Record{
         this.latitude = latitude;
     }
     
+    public List<City> getCities(){
+    	return cities;
+    }
     
+    public void setCities(List<City> cities){
+    	this.cities = cities;
+    }
     
-
     
     
 }

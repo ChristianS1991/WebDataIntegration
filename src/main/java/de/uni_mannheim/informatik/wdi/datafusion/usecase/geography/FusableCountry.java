@@ -78,6 +78,8 @@ private Map<String, Collection<String>> provenance = new HashMap<>();
 			return getLatitude()!=null;
 		case LONGITUDE:
 			return getLongitude()!=null;
+		case CITIES:
+			return getCities()!=null && getCities().size()>0;
 		default:
 			return false;
 		}
