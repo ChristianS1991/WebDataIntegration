@@ -127,7 +127,7 @@ public class Countries_Main {
 		FusableDataSet<FusableCountry> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geocomplete/output/fusedinklcities.xml"), new CountryXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geocomplete/output/CountriesWithBasicCitiesList.xml"), new CountryXMLFormatter());
 		System.out.println("Successful");
 		/*
 		// load the gold standard

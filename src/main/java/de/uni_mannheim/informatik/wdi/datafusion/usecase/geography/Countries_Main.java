@@ -87,14 +87,15 @@ public class Countries_Main {
 		// Note: The attribute name is only used for printing the reports
 		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
 		strategy.addAttributeFuser("Code", new CodeFuser(), new CodeEvaluationRule());
-		strategy.addAttributeFuser("Area", new AreaFuser(), new AreaEvaluationRule());
-		strategy.addAttributeFuser("Population", new PopulationFuser(), new PopulationEvaluationRule());
-		strategy.addAttributeFuser("PopulationDensity", new PopulationDensityFuser(), new PopulationDensityEvaluationRule());
-		strategy.addAttributeFuser("GINI", new GiniFuser(), new GiniEvaluationRule());
-		strategy.addAttributeFuser("GDP", new GdpFuser(), new GdpEvaluationRule());
-		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
-		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
-		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
+		strategy.addAttributeFuser("CityName", new de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.fusers.cities.NameFuser(), new de.uni_mannheim.informatik.wdi.datafusion.usecase.geography.evaluation.cities.NameEvaluationRule());
+//		strategy.addAttributeFuser("Area", new AreaFuser(), new AreaEvaluationRule());
+//		strategy.addAttributeFuser("Population", new PopulationFuser(), new PopulationEvaluationRule());
+//		strategy.addAttributeFuser("PopulationDensity", new PopulationDensityFuser(), new PopulationDensityEvaluationRule());
+//		strategy.addAttributeFuser("GINI", new GiniFuser(), new GiniEvaluationRule());
+//		strategy.addAttributeFuser("GDP", new GdpFuser(), new GdpEvaluationRule());
+//		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
+//		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
+//		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
 		// create the fusion engine
 		DataFusionEngine<FusableCountry> engine = new DataFusionEngine<>(strategy);
 		
@@ -105,7 +106,7 @@ public class Countries_Main {
 		FusableDataSet<FusableCountry> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/fusedinklcities.xml"), new CountryXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/fusedCountriesWithoutCityList.xml"), new CountryXMLFormatter());
 		
 	/*	// load the gold standard
 		DataSet<FusableCountry> gs = new FusableDataSet<>();
