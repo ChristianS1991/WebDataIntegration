@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<countries>
-	<country>
-		<country_name>Germany</country_name>
-		<cities>
-			<city>
-			</city>
-		</cities>
-	</country>
-
-</countries>
 <cities>
   <city>
     <id>dbpedia1_city_2304+geonames_city_11051+wcp_city_7283</id>
