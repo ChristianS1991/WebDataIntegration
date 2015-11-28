@@ -16,10 +16,10 @@ import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVF
 import de.uni_mannheim.informatik.wdi.usecase.geography.City;
 import de.uni_mannheim.informatik.wdi.usecase.geography.CityFactory;
 import de.uni_mannheim.informatik.wdi.usecase.geography.blockingfunctions.CityBlockingFunction;
-import de.uni_mannheim.informatik.wdi.usecase.geography.comperators.city.CityCustomComperatorDistancePopulation;
-import de.uni_mannheim.informatik.wdi.usecase.geography.comperators.city.CityLatitudeComparatorAbsolute;
-import de.uni_mannheim.informatik.wdi.usecase.geography.comperators.city.CityLongtitudeComparatorAbsolute;
-import de.uni_mannheim.informatik.wdi.usecase.geography.comperators.city.CityNameComparatorLevenshtein;
+import de.uni_mannheim.informatik.wdi.usecase.geography.comparators.city.CityCustomComperatorDistancePopulation;
+import de.uni_mannheim.informatik.wdi.usecase.geography.comparators.city.CityLatitudeComparatorAbsolute;
+import de.uni_mannheim.informatik.wdi.usecase.geography.comparators.city.CityLongtitudeComparatorAbsolute;
+import de.uni_mannheim.informatik.wdi.usecase.geography.comparators.city.CityNameComparatorLevenshtein;
 
 public class MatchDbpCitiesToWcpCities {
 
