@@ -69,16 +69,16 @@ public class Countries_Main {
 				"/countries/country");
 		
 		// set dataset metadata
-		ds1.setScore(1.0);
-		ds2.setScore(0.5);
+		ds1.setScore(0.5);
+		ds2.setScore(1.0);
 		ds3.setScore(0.3);
 		ds4.setScore(0.3);
 		ds5.setScore(0.3);
-		ds1.setDate(DateTime.parse("2012-01-01"));
-		ds2.setDate(DateTime.parse("2010-01-01"));
-		ds3.setDate(DateTime.parse("2008-01-01"));
-		ds4.setDate(DateTime.parse("2006-01-01"));
-		ds5.setDate(DateTime.parse("2004-01-01"));
+		ds1.setDate(DateTime.parse("2013-01-01"));
+		ds2.setDate(DateTime.parse("2013-12-31"));
+		ds3.setDate(DateTime.parse("2013-01-01"));
+		ds4.setDate(DateTime.parse("2011-10-18"));
+		ds5.setDate(DateTime.parse("2012-08-01"));
 		
 		// print dataset density
 		System.out.println("dbp_countries.xml");
@@ -127,7 +127,6 @@ public class Countries_Main {
 		
 		// write the result
 		fusedDataSet.writeXML(new File("usecase/geography/output/CountriesWithBasicCitiesList.xml"), new CountryXMLFormatter());
-		System.out.println("Successful");
 		
 		// load the gold standard
 		DataSet<FusableCountry> gs = new FusableDataSet<>();

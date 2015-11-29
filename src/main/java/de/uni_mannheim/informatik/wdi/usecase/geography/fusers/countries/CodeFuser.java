@@ -24,7 +24,7 @@ public class CodeFuser extends AttributeValueFuser<String, FusableCountry> {
 		fusedRecord.setCode(fused.getValue());
 		
 		// add provenance info
-		System.out.println("Provenance Code: " + fused.getOriginalIds());
+//		System.out.println("Provenance Code: " + fused.getOriginalIds());
 		fusedRecord.setAttributeProvenance(FusableCountry.CODE, fused.getOriginalIds());
 	}
 

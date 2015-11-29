@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?><countries>
+  <country>
+    <id>dbpedia2_country_75+worldbank_country_104</id>
+    <name provenance="dbpedia2_country_75">Kiribati</name>
+    <code provenance="worldbank_country_104">KIR</code>
+    <area provenance="">810.3330000000001</area>
+    <population provenance="">105060.0</population>
+    <population_density provenance="">133.348753672464</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_104">1641.195669</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_94+worldbank_country_92</id>
+    <name provenance="worldbank_country_92">Indonesia</name>
+    <code provenance="worldbank_country_92">IDN</code>
+    <area provenance="">1858070.0</area>
+    <population provenance="">2.501013265E8</population>
+    <population_density provenance="">130.78956303214989</population_density>
+    <gini provenance="dbpedia2_country_94">35.6</gini>
+    <gdp provenance="worldbank_country_92">3700.523538</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_143+worldbank_country_46</id>
+    <name provenance="dbpedia2_country_143">Comoros</name>
+    <code provenance="worldbank_country_46">COM</code>
+    <area provenance="">2048.08</area>
+    <population provenance="">765830.5</population>
+    <population_density provenance="">334.61472325</population_density>
+    <gini provenance="dbpedia2_country_143">64.3</gini>
+    <gdp provenance="worldbank_country_46">778.1057899</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_56+worldbank_country_97</id>
+    <name provenance="dbpedia2_country_56">Israel</name>
+    <code provenance="worldbank_country_97">ISR</code>
+    <area provenance="">21204.55</area>
+    <population provenance="">8074400.0</population>
+    <population_density provenance="">376.59409559415394</population_density>
+    <gini provenance="dbpedia2_country_56">39.2</gini>
+    <gdp provenance="worldbank_country_97">32514.36735</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_17+worldbank_country_5</id>
+    <name provenance="dbpedia2_country_17">Andorra</name>
+    <code provenance="worldbank_country_5">ADO</code>
+    <area provenance="">468.81100000000004</area>
+    <population provenance="">82199.0</population>
+    <population_density provenance="">174.2806672083043</population_density>
+    <gini provenance="dbpedia2_country_17">27.21</gini>
+    <gdp provenance="worldbank_country_5">39666.36921</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_24+worldbank_country_43</id>
+    <name provenance="dbpedia2_country_24">Chile</name>
+    <code provenance="worldbank_country_43">CHL</code>
+    <area provenance="">749814.0</area>
+    <population provenance="">1.76037455E7</population>
+    <population_density provenance="">23.5811908277723</population_density>
+    <gini provenance="dbpedia2_country_24">50.3</gini>
+    <gdp provenance="worldbank_country_43">15253.33083</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_37+worldbank_country_16</id>
+    <name provenance="dbpedia2_country_37">Bahrain</name>
+    <code provenance="worldbank_country_16">BHR</code>
+    <area provenance="">775.0</area>
+    <population provenance="">1338288.5</population>
+    <population_density provenance="">1679.251884376904</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_16">23063.13229</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_96+worldbank_country_126</id>
+    <name provenance="dbpedia2_country_96">Malaysia</name>
+    <code provenance="worldbank_country_126">MYS</code>
+    <area provenance="">329198.5</area>
+    <population provenance="">1.4525137E7</population>
+    <population_density provenance="">90.04325506863992</population_density>
+    <gini provenance="dbpedia2_country_96">46.2</gini>
+    <gdp provenance="worldbank_country_126">10507.79278</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_35+worldbank_country_141</id>
+    <name provenance="worldbank_country_141">Mozambique</name>
+    <code provenance="worldbank_country_141">MOZ</code>
+    <area provenance="">793985.0</area>
+    <population provenance="">2.4831318E7</population>
+    <population_density provenance="">30.708484464925935</population_density>
+    <gini provenance="dbpedia2_country_35">45.7</gini>
+    <gdp provenance="worldbank_country_141">580.3604716</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_92+worldbank_country_137</id>
+    <name provenance="dbpedia2_country_92">Monaco</name>
+    <code provenance="worldbank_country_137">MCO</code>
+    <area provenance="">2.01</area>
+    <population provenance="">36887.5</population>
+    <population_density provenance="">18602.947484245888</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="dbpedia2_country_92">153177.0</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_121+worldbank_country_218</id>
+    <name provenance="dbpedia2_country_121">United Kingdom</name>
+    <code provenance="worldbank_country_218">GBR</code>
+    <area provenance="">242770.0</area>
+    <population provenance="">6.390015E7</population>
+    <population_density provenance="">259.4405254348112</population_density>
+    <gini provenance="worldbank_country_218">32.57</gini>
+    <gdp provenance="worldbank_country_218">41050.77194</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_79+worldbank_country_163</id>
+    <name provenance="worldbank_country_163">Peru</name>
+    <code provenance="worldbank_country_163">PER</code>
+    <area provenance="">1282610.0</area>
+    <population provenance="">3.06552055E7</population>
+    <population_density provenance="">23.032724509229855</population_density>
+    <gini provenance="worldbank_country_163">45.11</gini>
+    <gdp provenance="worldbank_country_163">6388.758458</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_34+worldbank_country_32</id>
+    <name provenance="dbpedia2_country_34">Burundi</name>
+    <code provenance="worldbank_country_32">BDI</code>
+    <area provenance="">26754.7</area>
+    <population provenance="">1.02602515E7</population>
+    <population_density provenance="">354.29561152131487</population_density>
+    <gini provenance="dbpedia2_country_34">33.0</gini>
+    <gdp provenance="worldbank_country_32">244.196482</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_36+worldbank_country_132</id>
+    <name provenance="dbpedia2_country_36">Mauritius</name>
+    <code provenance="worldbank_country_132">MUS</code>
+    <area provenance="">2034.1599999999999</area>
+    <population provenance="">1258545.0</population>
+    <population_density provenance="">486.8625973879929</population_density>
+    <gini provenance="worldbank_country_132">35.84</gini>
+    <gdp provenance="worldbank_country_132">9110.805399</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_3+worldbank_country_7</id>
+    <name provenance="dbpedia2_country_3">Antigua and Barbuda</name>
+    <code provenance="worldbank_country_7">ATG</code>
+    <area provenance="">440.0</area>
+    <population provenance="">90182.0</population>
+    <population_density provenance="">194.14355731472912</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_7">13525.61622</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_40+worldbank_country_68</id>
+    <name provenance="worldbank_country_68">Fiji</name>
+    <code provenance="worldbank_country_68">FJI</code>
+    <area provenance="">18272.0</area>
+    <population provenance="">866098.0</population>
+    <population_density provenance="">47.13533933316406</population_density>
+    <gini provenance="dbpedia2_country_40">42.8</gini>
+    <gdp provenance="worldbank_country_68">4404.051768</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_54+worldbank_country_168</id>
+    <name provenance="dbpedia2_country_54">Qatar</name>
+    <code provenance="worldbank_country_168">QAT</code>
+    <area provenance="">11590.5</area>
+    <population provenance="">2085535.0</population>
+    <population_density provenance="">174.72463303420324</population_density>
+    <gini provenance="dbpedia2_country_54">41.1</gini>
+    <gdp provenance="worldbank_country_168">94236.13495</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_62+worldbank_country_223</id>
+    <name provenance="dbpedia2_country_62">Vanuatu</name>
+    <code provenance="worldbank_country_223">VUT</code>
+    <area provenance="">12190.0</area>
+    <population provenance="">257217.5</population>
+    <population_density provenance="">19.999484226416186</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_223">3158.420974</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_117+worldbank_country_24</id>
+    <name provenance="dbpedia2_country_117">Bhutan</name>
+    <code provenance="worldbank_country_24">BTN</code>
+    <area provenance="">38255.5</area>
+    <population provenance="">743224.0</population>
+    <population_density provenance="">18.753724117019495</population_density>
+    <gini provenance="worldbank_country_24">38.65</gini>
+    <gdp provenance="worldbank_country_24">2452.151588</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_31+worldbank_country_58</id>
+    <name provenance="worldbank_country_58">Dominica</name>
+    <code provenance="worldbank_country_58">DMA</code>
+    <area provenance="">750.0</area>
+    <population provenance="">72172.5</population>
+    <population_density provenance="">100.29494678088633</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_58">7181.625372</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_128+worldbank_country_9</id>
+    <name provenance="dbpedia2_country_128">Argentina</name>
+    <code provenance="worldbank_country_9">ARG</code>
+    <area provenance="">2758545.0</area>
+    <population provenance="">4.2382362E7</population>
+    <population_density provenance="">14.89090105</population_density>
+    <gini provenance="worldbank_country_9">42.49</gini>
+    <gdp provenance="worldbank_country_9">14436.60009</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_87+worldbank_country_87</id>
+    <name provenance="dbpedia2_country_87">Honduras</name>
+    <code provenance="worldbank_country_87">HND</code>
+    <area provenance="">111990.0</area>
+    <population provenance="">7992852.5</population>
+    <population_density provenance="">66.5934916145115</population_density>
+    <gini provenance="worldbank_country_87">57.4</gini>
+    <gdp provenance="worldbank_country_87">2395.072116</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_141+worldbank_country_198</id>
+    <name provenance="worldbank_country_198">Swaziland</name>
+    <code provenance="worldbank_country_198">SWZ</code>
+    <area provenance="">17281.65</area>
+    <population provenance="">1168847.0</population>
+    <population_density provenance="">69.9207735475761</population_density>
+    <gini provenance="dbpedia2_country_141">51.5</gini>
+    <gdp provenance="worldbank_country_198">3053.19578</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_46+worldbank_country_94</id>
+    <name provenance="worldbank_country_94">Iraq</name>
+    <code provenance="worldbank_country_94">IRQ</code>
+    <area provenance="">435696.0</area>
+    <population provenance="">3.43927635E7</population>
+    <population_density provenance="">76.16432151398895</population_density>
+    <gini provenance="worldbank_country_94">29.54</gini>
+    <gdp provenance="worldbank_country_94">6650.229057</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_4+worldbank_country_133</id>
+    <name provenance="worldbank_country_133">Mexico</name>
+    <code provenance="worldbank_country_133">MEX</code>
+    <area provenance="">1958250.0</area>
+    <population provenance="">1.202330085E8</population>
+    <population_density provenance="">59.35428680325683</population_density>
+    <gini provenance="worldbank_country_133">48.07</gini>
+    <gdp provenance="worldbank_country_133">9721.062644</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_106+worldbank_country_124</id>
+    <name provenance="dbpedia2_country_106">Madagascar</name>
+    <code provenance="worldbank_country_124">MDG</code>
+    <area provenance="">584339.5</area>
+    <population provenance="">2.2149471E7</population>
+    <population_density provenance="">36.7529056708042</population_density>
+    <gini provenance="dbpedia2_country_106">44.1</gini>
+    <gdp provenance="worldbank_country_124">444.9585005</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_133+worldbank_country_190</id>
+    <name provenance="dbpedia2_country_133">Spain</name>
+    <code provenance="worldbank_country_190">ESP</code>
+    <area provenance="">502427.5</area>
+    <population provenance="">4.67386845E7</population>
+    <population_density provenance="">92.91954807754675</population_density>
+    <gini provenance="worldbank_country_190">35.89</gini>
+    <gdp provenance="worldbank_country_190">28985.33333</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_50+worldbank_country_195</id>
+    <name provenance="dbpedia2_country_50">Saint Vincent and the Grenadines</name>
+    <code provenance="worldbank_country_195">VCT</code>
+    <area provenance="">389.249</area>
+    <population provenance="">106167.0</population>
+    <population_density provenance="">293.3700222414043</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_195">6351.600498</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_7+worldbank_country_89</id>
+    <name provenance="dbpedia2_country_7">Hungary</name>
+    <code provenance="worldbank_country_89">HUN</code>
+    <area provenance="">91779.9</area>
+    <population provenance="">9898863.5</population>
+    <population_density provenance="">108.5210928083356</population_density>
+    <gini provenance="worldbank_country_89">30.55</gini>
+    <gdp provenance="worldbank_country_89">12784.29561</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_157+worldbank_country_185</id>
+    <name provenance="worldbank_country_185">Solomon Islands</name>
+    <code provenance="worldbank_country_185">SLB</code>
+    <area provenance="">28194.6</area>
+    <population provenance="">536081.0</population>
+    <population_density provenance="">18.862015653910177</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_185">1866.707246</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_100+worldbank_country_187</id>
+    <name provenance="dbpedia2_country_100">South Africa</name>
+    <code provenance="worldbank_country_187">ZAF</code>
+    <area provenance="">1217060.0</area>
+    <population provenance="">5.31718475E7</population>
+    <population_density provenance="">42.773706405</population_density>
+    <gini provenance="dbpedia2_country_100">63.1</gini>
+    <gdp provenance="worldbank_country_187">7592.157997</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_15+worldbank_country_44</id>
+    <name provenance="dbpedia2_country_15">China</name>
+    <code provenance="worldbank_country_44">CHN</code>
+    <area provenance="">9492585.5</area>
+    <population provenance="">1.3540375E9</population>
+    <population_density provenance="">611.1897230840831</population_density>
+    <gini provenance="dbpedia2_country_15">55.0</gini>
+    <gdp provenance="worldbank_country_44">6264.643878</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_135+worldbank_country_158</id>
+    <name provenance="dbpedia2_country_135">Pakistan</name>
+    <code provenance="worldbank_country_158">PAK</code>
+    <area provenance="">787410.0</area>
+    <population provenance="">1.86783316E8</population>
+    <population_density provenance="">232.2878916246704</population_density>
+    <gini provenance="dbpedia2_country_135">30.0</gini>
+    <gdp provenance="worldbank_country_158">1266.380758</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_151+worldbank_country_77</id>
+    <name provenance="dbpedia2_country_151">Ghana</name>
+    <code provenance="worldbank_country_77">GHA</code>
+    <area provenance="">233037.5</area>
+    <population provenance="">2.62722825E7</population>
+    <population_density provenance="">106.48784140769625</population_density>
+    <gini provenance="dbpedia2_country_151">42.8</gini>
+    <gdp provenance="worldbank_country_77">1641.825922</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_44+worldbank_country_219</id>
+    <name provenance="worldbank_country_219">United States</name>
+    <code provenance="worldbank_country_219">USA</code>
+    <area provenance="">9502365.0</area>
+    <population provenance="">3.17159039E8</population>
+    <population_density provenance="">34.271598456715175</population_density>
+    <gini provenance="dbpedia2_country_44">40.8</gini>
+    <gdp provenance="worldbank_country_219">51456.65873</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_77+worldbank_country_114</id>
+    <name provenance="dbpedia2_country_77">Liberia</name>
+    <code provenance="worldbank_country_114">LBR</code>
+    <area provenance="">103844.5</area>
+    <population provenance="">4141232.5</population>
+    <population_density provenance="">39.50656953647626</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_114">414.1851554</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_116+worldbank_country_11</id>
+    <name provenance="dbpedia2_country_116">Aruba</name>
+    <code provenance="worldbank_country_11">ABW</code>
+    <area provenance="">179.45499999999998</area>
+    <population provenance="">102652.0</population>
+    <population_density provenance="">572.0302836937376</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="dbpedia2_country_116">24924.0</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_69+worldbank_country_216</id>
+    <name provenance="dbpedia2_country_69">Ukraine</name>
+    <code provenance="worldbank_country_216">UKR</code>
+    <area provenance="">591410.0</area>
+    <population provenance="">4.49423565E7</population>
+    <population_density provenance="">76.23708234540179</population_density>
+    <gini provenance="worldbank_country_216">24.74</gini>
+    <gdp provenance="worldbank_country_216">3855.42128</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_95+worldbank_country_222</id>
+    <name provenance="dbpedia2_country_95">Uzbekistan</name>
+    <code provenance="worldbank_country_222">UZB</code>
+    <area provenance="">436400.0</area>
+    <population provenance="">2.997975E7</population>
+    <population_density provenance="">65.70309958102578</population_density>
+    <gini provenance="dbpedia2_country_95">36.8</gini>
+    <gdp provenance="worldbank_country_222">1719.036196</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_61+worldbank_country_73</id>
+    <name provenance="worldbank_country_73">Gabon</name>
+    <code provenance="worldbank_country_73">GAB</code>
+    <area provenance="">262668.5</area>
+    <population provenance="">1544244.5</population>
+    <population_density provenance="">5.886236550289244</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_73">10960.72366</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_163+worldbank_country_150</id>
+    <name provenance="worldbank_country_150">Nigeria</name>
+    <code provenance="worldbank_country_150">NGA</code>
+    <area provenance="">917266.5</area>
+    <population provenance="">1.71373971E8</population>
+    <population_density provenance="">186.81657624370467</population_density>
+    <gini provenance="dbpedia2_country_163">48.8</gini>
+    <gdp provenance="worldbank_country_150">2739.852189</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_158+worldbank_country_13</id>
+    <name provenance="dbpedia2_country_158">Austria</name>
+    <code provenance="worldbank_country_13">AUT</code>
+    <area provenance="">83209.5</area>
+    <population provenance="">8501443.0</population>
+    <population_density provenance="">101.76370195831157</population_density>
+    <gini provenance="worldbank_country_13">30.48</gini>
+    <gdp provenance="worldbank_country_13">48348.22596</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_111+worldbank_country_196</id>
+    <name provenance="worldbank_country_196">Sudan</name>
+    <code provenance="worldbank_country_196">SDN</code>
+    <area provenance="">2131035.0</area>
+    <population provenance="">3.7500913E7</population>
+    <population_density provenance="">18.439535365549926</population_density>
+    <gini provenance="dbpedia2_country_111">35.3</gini>
+    <gdp provenance="worldbank_country_196">1662.307027</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_126+worldbank_country_176</id>
+    <name provenance="worldbank_country_176">Senegal</name>
+    <code provenance="worldbank_country_176">SEN</code>
+    <area provenance="">194621.0</area>
+    <population provenance="">1.3673723E7</population>
+    <population_density provenance="">70.11449952324816</population_density>
+    <gini provenance="dbpedia2_country_126">40.3</gini>
+    <gdp provenance="worldbank_country_176">1019.27223</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_153+worldbank_country_62</id>
+    <name provenance="dbpedia2_country_153">El Salvador</name>
+    <code provenance="worldbank_country_62">SLV</code>
+    <area provenance="">20880.55</area>
+    <population provenance="">6181326.5</population>
+    <population_density provenance="">317.2729063537348</population_density>
+    <gini provenance="worldbank_country_62">41.8</gini>
+    <gdp provenance="worldbank_country_62">3921.720395</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_152+worldbank_country_115</id>
+    <name provenance="dbpedia2_country_152">Libya</name>
+    <code provenance="worldbank_country_115">LBY</code>
+    <area provenance="">1759535.0</area>
+    <population provenance="">6263788.5</population>
+    <population_density provenance="">3.5610593061476257</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_115">13035.1922</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_101+worldbank_country_178</id>
+    <name provenance="dbpedia2_country_101">Seychelles</name>
+    <code provenance="worldbank_country_178">SYC</code>
+    <area provenance="">459.214</area>
+    <population provenance="">90151.5</population>
+    <population_density provenance="">189.12439973210965</population_density>
+    <gini provenance="dbpedia2_country_101">65.8</gini>
+    <gdp provenance="worldbank_country_178">12844.82928</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_32+worldbank_country_171</id>
+    <name provenance="worldbank_country_171">Rwanda</name>
+    <code provenance="worldbank_country_171">RWA</code>
+    <area provenance="">25503.8</area>
+    <population provenance="">1.14149695E7</population>
+    <population_density provenance="">429.1335476418368</population_density>
+    <gini provenance="dbpedia2_country_32">50.8</gini>
+    <gdp provenance="worldbank_country_171">667.4145823</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_148+worldbank_country_101</id>
+    <name provenance="dbpedia2_country_148">Jordan</name>
+    <code provenance="worldbank_country_101">JOR</code>
+    <area provenance="">89061.0</area>
+    <population provenance="">6486500.0</population>
+    <population_density provenance="">89.60832748399565</population_density>
+    <gini provenance="dbpedia2_country_148">35.4</gini>
+    <gdp provenance="worldbank_country_101">4896.688447</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_98+worldbank_country_76</id>
+    <name provenance="dbpedia2_country_98">Germany</name>
+    <code provenance="worldbank_country_76">DEU</code>
+    <area provenance="">352781.0</area>
+    <population provenance="">8.05709115E7</population>
+    <population_density provenance="">228.14970235756152</population_density>
+    <gini provenance="dbpedia2_country_98">29.0</gini>
+    <gdp provenance="worldbank_country_76">43931.69171</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_136+worldbank_country_83</id>
+    <name provenance="worldbank_country_83">Guinea</name>
+    <code provenance="worldbank_country_83">GIN</code>
+    <area provenance="">245778.0</area>
+    <population provenance="">1.0843371E7</population>
+    <population_density provenance="">44.12899812533838</population_density>
+    <gini provenance="worldbank_country_83">33.73</gini>
+    <gdp provenance="worldbank_country_83">487.3457142</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_110+worldbank_country_121</id>
+    <name provenance="dbpedia2_country_110">Luxembourg</name>
+    <code provenance="worldbank_country_121">LUX</code>
+    <area provenance="">2588.1800000000003</area>
+    <population provenance="">540313.0</population>
+    <population_density provenance="">199.41248081933202</population_density>
+    <gini provenance="worldbank_country_121">34.79</gini>
+    <gdp provenance="worldbank_country_121">106022.7991</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_93+worldbank_country_107</id>
+    <name provenance="worldbank_country_107">Kosovo</name>
+    <code provenance="worldbank_country_107">KSV</code>
+    <area provenance="">10897.5</area>
+    <population provenance="">1832201.5</population>
+    <population_density provenance="">162.4247407798719</population_density>
+    <gini provenance="worldbank_country_107">29.4</gini>
+    <gdp provenance="worldbank_country_107">3600.887</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_156+worldbank_country_25</id>
+    <name provenance="dbpedia2_country_156">Bolivia</name>
+    <code provenance="worldbank_country_25">BOL</code>
+    <area provenance="">1090940.0</area>
+    <population provenance="">1.0397432E7</population>
+    <population_density provenance="">9.195815280119064</population_density>
+    <gini provenance="worldbank_country_25">46.7</gini>
+    <gdp provenance="worldbank_country_25">2640.466702</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_38+worldbank_country_111</id>
+    <name provenance="worldbank_country_111">Latvia</name>
+    <code provenance="worldbank_country_111">LVA</code>
+    <area provenance="">63384.5</area>
+    <population provenance="">2012309.5</population>
+    <population_density provenance="">33.51442700360586</population_density>
+    <gini provenance="worldbank_country_111">35.48</gini>
+    <gdp provenance="worldbank_country_111">14031.79587</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_11+worldbank_country_103</id>
+    <name provenance="dbpedia2_country_11">Kenya</name>
+    <code provenance="worldbank_country_103">KEN</code>
+    <area provenance="">574752.5</area>
+    <population provenance="">4.3776517E7</population>
+    <population_density provenance="">76.37295079639352</population_density>
+    <gini provenance="dbpedia2_country_11">42.5</gini>
+    <gdp provenance="worldbank_country_103">1184.923256</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_146+worldbank_country_57</id>
+    <name provenance="dbpedia2_country_146">Djibouti</name>
+    <code provenance="worldbank_country_57">DJI</code>
+    <area provenance="">23190.0</area>
+    <population provenance="">831624.0</population>
+    <population_density provenance="">37.006032685872945</population_density>
+    <gini provenance="worldbank_country_57">45.13</gini>
+    <gdp provenance="worldbank_country_57">1586.780133</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_22+worldbank_country_66</id>
+    <name provenance="dbpedia2_country_22">Ethiopia</name>
+    <code provenance="worldbank_country_66">ETH</code>
+    <area provenance="">1052150.0</area>
+    <population provenance="">9.0072101E7</population>
+    <population_density provenance="">87.38645317266094</population_density>
+    <gini provenance="dbpedia2_country_22">33.6</gini>
+    <gdp provenance="worldbank_country_66">469.7923039</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_115+worldbank_country_199</id>
+    <name provenance="worldbank_country_199">Sweden</name>
+    <code provenance="worldbank_country_199">SWE</code>
+    <area provenance="">428817.5</area>
+    <population provenance="">9618168.0</population>
+    <population_density provenance="">22.426621398739996</population_density>
+    <gini provenance="worldbank_country_199">27.32</gini>
+    <gdp provenance="worldbank_country_199">57134.07707</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_28+worldbank_country_55</id>
+    <name provenance="dbpedia2_country_28">Czech Republic</name>
+    <code provenance="worldbank_country_55">CZE</code>
+    <area provenance="">78047.55</area>
+    <population provenance="">1.0511997E7</population>
+    <population_density provenance="">134.46379766574353</population_density>
+    <gini provenance="worldbank_country_55">26.13</gini>
+    <gdp provenance="worldbank_country_55">19670.40261</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_147+worldbank_country_138</id>
+    <name provenance="dbpedia2_country_147">Mongolia</name>
+    <code provenance="worldbank_country_138">MNG</code>
+    <area provenance="">1558840.0</area>
+    <population provenance="">2904169.5</population>
+    <population_density provenance="">1.837162480750935</population_density>
+    <gini provenance="worldbank_country_138">33.75</gini>
+    <gdp provenance="worldbank_country_138">4377.23887</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_10+worldbank_country_41</id>
+    <name provenance="worldbank_country_41">Chad</name>
+    <code provenance="worldbank_country_41">TCD</code>
+    <area provenance="">1271595.0</area>
+    <population provenance="">1.15223365E7</population>
+    <population_density provenance="">9.056756399420717</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_41">972.6793451</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_127+worldbank_country_64</id>
+    <name provenance="dbpedia2_country_127">Eritrea</name>
+    <code provenance="worldbank_country_64">ERI</code>
+    <area provenance="">109299.0</area>
+    <population provenance="">5636518.0</population>
+    <population_density provenance="">47.950878027297804</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_64">632.0155805</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_53+worldbank_country_136</id>
+    <name provenance="worldbank_country_136">Moldova</name>
+    <code provenance="worldbank_country_136">MDA</code>
+    <area provenance="">33351.7</area>
+    <population provenance="">3236400.0</population>
+    <population_density provenance="">114.52395573088633</population_density>
+    <gini provenance="worldbank_country_136">29.16</gini>
+    <gdp provenance="worldbank_country_136">2046.536787</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_134+worldbank_country_84</id>
+    <name provenance="worldbank_country_84">Guinea-Bissau</name>
+    <code provenance="worldbank_country_84">GNB</code>
+    <area provenance="">32122.5</area>
+    <population provenance="">1680810.0</population>
+    <population_density provenance="">52.66125317291312</population_density>
+    <gini provenance="dbpedia2_country_134">47.0</gini>
+    <gdp provenance="worldbank_country_84">559.224752</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_145+worldbank_country_69</id>
+    <name provenance="dbpedia2_country_145">Finland</name>
+    <code provenance="worldbank_country_69">FIN</code>
+    <area provenance="">321066.0</area>
+    <population provenance="">5444032.5</population>
+    <population_density provenance="">17.84795559823813</population_density>
+    <gini provenance="worldbank_country_69">27.12</gini>
+    <gdp provenance="worldbank_country_69">47415.55987</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_162+worldbank_country_217</id>
+    <name provenance="worldbank_country_217">United Arab Emirates</name>
+    <code provenance="worldbank_country_217">ARE</code>
+    <area provenance="">83599.8</area>
+    <population provenance="">9149335.5</population>
+    <population_density provenance="">103.00444964671654</population_density>
+    <gini provenance="dbpedia2_country_162">36.0</gini>
+    <gdp provenance="worldbank_country_217">41587.51281</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_58+worldbank_country_225</id>
+    <name provenance="dbpedia2_country_58">Vietnam</name>
+    <code provenance="worldbank_country_225">VNM</code>
+    <area provenance="">321384.0</area>
+    <population provenance="">8.975145E7</population>
+    <population_density provenance="">4.536514314977265E7</population_density>
+    <gini provenance="worldbank_country_225">38.7</gini>
+    <gdp provenance="worldbank_country_225">1755.265424</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_33+worldbank_country_116</id>
+    <name provenance="worldbank_country_116">Liechtenstein</name>
+    <code provenance="worldbank_country_116">LIE</code>
+    <area provenance="">158.99450000000002</area>
+    <population provenance="">36961.5</population>
+    <population_density provenance="">228.38236676610393</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_116">149160.7581</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_27+worldbank_country_203</id>
+    <name provenance="dbpedia2_country_27">Tajikistan</name>
+    <code provenance="worldbank_country_203">TJK</code>
+    <area provenance="">141529.5</area>
+    <population provenance="">8069464.5</population>
+    <population_density provenance="">52.62575441115992</population_density>
+    <gini provenance="dbpedia2_country_27">33.59</gini>
+    <gdp provenance="worldbank_country_203">962.4391249</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_52+worldbank_country_80</id>
+    <name provenance="worldbank_country_80">Grenada</name>
+    <code provenance="worldbank_country_80">GRD</code>
+    <area provenance="">341.975</area>
+    <population provenance="">107533.0</population>
+    <population_density provenance="">314.4125357734956</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_80">7584.66381</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_13+worldbank_country_162</id>
+    <name provenance="dbpedia2_country_13">Paraguay</name>
+    <code provenance="worldbank_country_162">PRY</code>
+    <area provenance="">402026.0</area>
+    <population provenance="">6589723.0</population>
+    <population_density provenance="">15.342638505788848</population_density>
+    <gini provenance="worldbank_country_162">48.17</gini>
+    <gdp provenance="worldbank_country_162">3855.572185</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_29+worldbank_country_54</id>
+    <name provenance="dbpedia2_country_29">Cyprus</name>
+    <code provenance="worldbank_country_54">CYP</code>
+    <area provenance="">9245.5</area>
+    <population provenance="">1123151.5</population>
+    <population_density provenance="">106.45349268342335</population_density>
+    <gini provenance="worldbank_country_54">34.31</gini>
+    <gdp provenance="worldbank_country_54">28868.27382</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_105+worldbank_country_86</id>
+    <name provenance="dbpedia2_country_105">Haiti</name>
+    <code provenance="worldbank_country_86">HTI</code>
+    <area provenance="">27654.55</area>
+    <population provenance="">1.01427795E7</population>
+    <population_density provenance="">361.7997367682194</population_density>
+    <gini provenance="worldbank_country_86">60.79</gini>
+    <gdp provenance="worldbank_country_86">766.8721739</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_142+worldbank_country_98</id>
+    <name provenance="dbpedia2_country_142">Italy</name>
+    <code provenance="worldbank_country_98">ITA</code>
+    <area provenance="">297738.5</area>
+    <population provenance="">6.01611925E7</population>
+    <population_density provenance="">202.05976885564343</population_density>
+    <gini provenance="worldbank_country_98">35.16</gini>
+    <gdp provenance="worldbank_country_98">34854.39756</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_49+worldbank_country_179</id>
+    <name provenance="dbpedia2_country_49">Sierra Leone</name>
+    <code provenance="worldbank_country_179">SLE</code>
+    <area provenance="">71960.0</area>
+    <population provenance="">6116718.5</population>
+    <population_density provenance="">81.55736471908173</population_density>
+    <gini provenance="dbpedia2_country_49">35.4</gini>
+    <gdp provenance="worldbank_country_179">627.0099848</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_67+worldbank_country_112</id>
+    <name provenance="dbpedia2_country_67">Lebanon</name>
+    <code provenance="worldbank_country_112">LBN</code>
+    <area provenance="">10341.0</area>
+    <population provenance="">4703321.0</population>
+    <population_density provenance="">480.08268875341724</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_112">9729.282193</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_73+worldbank_country_145</id>
+    <name provenance="dbpedia2_country_73">Netherlands</name>
+    <code provenance="worldbank_country_145">NLD</code>
+    <area provenance="">37630.4</area>
+    <population provenance="">1.6833801E7</population>
+    <population_density provenance="">12177.536474027758</population_density>
+    <gini provenance="worldbank_country_145">27.99</gini>
+    <gdp provenance="worldbank_country_145">49128.08727</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_59+worldbank_country_230</id>
+    <name provenance="dbpedia2_country_59">Zambia</name>
+    <code provenance="worldbank_country_230">ZMB</code>
+    <area provenance="">748003.5</area>
+    <population provenance="">1.45480235E7</population>
+    <population_density provenance="">18.540759063784712</population_density>
+    <gini provenance="dbpedia2_country_59">57.5</gini>
+    <gdp provenance="worldbank_country_230">1686.618024</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_68+worldbank_country_28</id>
+    <name provenance="dbpedia2_country_68">Brazil</name>
+    <code provenance="worldbank_country_28">BRA</code>
+    <area provenance="">8436490.0</area>
+    <population provenance="">2.02585073E8</population>
+    <population_density provenance="">24.04263524740791</population_density>
+    <gini provenance="worldbank_country_28">52.67</gini>
+    <gdp provenance="worldbank_country_28">11922.70468</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_161+worldbank_country_177</id>
+    <name provenance="worldbank_country_177">Serbia</name>
+    <code provenance="worldbank_country_177">SRB</code>
+    <area provenance="">87910.5</area>
+    <population provenance="">7204420.5</population>
+    <population_density provenance="">84.72328607311402</population_density>
+    <gini provenance="dbpedia2_country_161">38.0</gini>
+    <gdp provenance="worldbank_country_177">5659.380204</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_137+worldbank_country_67</id>
+    <name provenance="worldbank_country_67">Faeroe Islands</name>
+    <code provenance="worldbank_country_67">FRO</code>
+    <area provenance="">1397.295</area>
+    <population provenance="">49051.0</population>
+    <population_density provenance="">34.99156049684065</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_67">48695.17118</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_108+worldbank_country_175</id>
+    <name provenance="worldbank_country_175">Saudi Arabia</name>
+    <code provenance="worldbank_country_175">SAU</code>
+    <area provenance="">2149690.0</area>
+    <population provenance="">3.0133211E7</population>
+    <population_density provenance="">12.927826733703956</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_175">24883.18971</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_30+worldbank_country_21</id>
+    <name provenance="worldbank_country_21">Belize</name>
+    <code provenance="worldbank_country_21">BLZ</code>
+    <area provenance="">22887.7</area>
+    <population provenance="">338775.5</population>
+    <population_density provenance="">14.43852304566338</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_21">4674.293377</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_91+worldbank_country_2</id>
+    <name provenance="dbpedia2_country_91">Albania</name>
+    <code provenance="worldbank_country_2">ALB</code>
+    <area provenance="">28074.0</area>
+    <population provenance="">2960349.0</population>
+    <population_density provenance="">101.94611846744532</population_density>
+    <gini provenance="worldbank_country_2">28.96</gini>
+    <gdp provenance="worldbank_country_2">4256.016702</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_132+worldbank_country_140</id>
+    <name provenance="dbpedia2_country_132">Morocco</name>
+    <code provenance="worldbank_country_140">MAR</code>
+    <area provenance="">446425.0</area>
+    <population provenance="">3.3117095E7</population>
+    <population_density provenance="">73.50021989802124</population_density>
+    <gini provenance="dbpedia2_country_132">40.9</gini>
+    <gdp provenance="worldbank_country_140">2860.926086</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_120+worldbank_country_161</id>
+    <name provenance="dbpedia2_country_120">Papua New Guinea</name>
+    <code provenance="worldbank_country_161">PNG</code>
+    <area provenance="">457849.5</area>
+    <population provenance="">7107261.5</population>
+    <population_density provenance="">14.99136308218487</population_density>
+    <gini provenance="dbpedia2_country_120">50.9</gini>
+    <gdp provenance="worldbank_country_161">2151.16037</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_60+worldbank_country_85</id>
+    <name provenance="worldbank_country_85">Guyana</name>
+    <code provenance="worldbank_country_85">GUY</code>
+    <area provenance="">205909.5</area>
+    <population provenance="">746982.0</population>
+    <population_density provenance="">3.677448422534632</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_85">3759.383547</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_85+worldbank_country_39</id>
+    <name provenance="worldbank_country_39">Central African Republic</name>
+    <code provenance="worldbank_country_39">CAF</code>
+    <area provenance="">622980.0</area>
+    <population provenance="">4664250.0</population>
+    <population_density provenance="">7.2586528372952515</population_density>
+    <gini provenance="dbpedia2_country_85">56.3</gini>
+    <gdp provenance="worldbank_country_39">469.6842871</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_150+worldbank_country_117</id>
+    <name provenance="worldbank_country_117">Lithuania</name>
+    <code provenance="worldbank_country_117">LTU</code>
+    <area provenance="">63986.4</area>
+    <population provenance="">2954846.5</population>
+    <population_density provenance="">46.28278766273093</population_density>
+    <gini provenance="worldbank_country_117">35.15</gini>
+    <gdp provenance="worldbank_country_117">14333.24742</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_155+worldbank_country_56</id>
+    <name provenance="dbpedia2_country_155">Denmark</name>
+    <code provenance="worldbank_country_56">DNK</code>
+    <area provenance="">42662.8</area>
+    <population provenance="">5623661.0</population>
+    <population_density provenance="">131.39172754999998</population_density>
+    <gini provenance="worldbank_country_56">29.08</gini>
+    <gdp provenance="worldbank_country_56">57636.12531</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_48+worldbank_country_60</id>
+    <name provenance="worldbank_country_60">Ecuador</name>
+    <code provenance="worldbank_country_60">ECU</code>
+    <area provenance="">265960.0</area>
+    <population provenance="">1.53215865E7</population>
+    <population_density provenance="">60.51861027196152</population_density>
+    <gini provenance="worldbank_country_60">46.57</gini>
+    <gdp provenance="worldbank_country_60">5682.638917</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_57+worldbank_country_3</id>
+    <name provenance="dbpedia2_country_57">Algeria</name>
+    <code provenance="worldbank_country_3">DZA</code>
+    <area provenance="">2381740.0</area>
+    <population provenance="">3.80697135E7</population>
+    <population_density provenance="">15.492997642189675</population_density>
+    <gini provenance="dbpedia2_country_57">35.3</gini>
+    <gdp provenance="worldbank_country_3">5457.642768</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_103+worldbank_country_17</id>
+    <name provenance="worldbank_country_17">Bangladesh</name>
+    <code provenance="worldbank_country_17">BGD</code>
+    <area provenance="">138870.0</area>
+    <population provenance="">1.559261745E8</population>
+    <population_density provenance="">1113.118499996605</population_density>
+    <gini provenance="dbpedia2_country_103">32.1</gini>
+    <gdp provenance="worldbank_country_17">858.9333626</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_113+worldbank_country_127</id>
+    <name provenance="dbpedia2_country_113">Maldives</name>
+    <code provenance="worldbank_country_127">MDV</code>
+    <area provenance="">298.92449999999997</area>
+    <population provenance="">369158.5</population>
+    <population_density provenance="">1125.9390258755252</population_density>
+    <gini provenance="dbpedia2_country_113">62.7</gini>
+    <gdp provenance="worldbank_country_127">7350.394182</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_65+worldbank_country_197</id>
+    <name provenance="worldbank_country_197">Suriname</name>
+    <code provenance="worldbank_country_197">SUR</code>
+    <area provenance="">159909.5</area>
+    <population provenance="">550923.0</population>
+    <population_density provenance="">3.1526165372306476</population_density>
+    <gini provenance="dbpedia2_country_65">52.9</gini>
+    <gdp provenance="worldbank_country_197">9484.765064</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_39+worldbank_country_65</id>
+    <name provenance="dbpedia2_country_39">Estonia</name>
+    <code provenance="worldbank_country_65">EST</code>
+    <area provenance="">43744.75</area>
+    <population provenance="">1319257.5</population>
+    <population_density provenance="">30.090925262670858</population_density>
+    <gini provenance="worldbank_country_65">33.15</gini>
+    <gdp provenance="worldbank_country_65">17132.22729</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_123+worldbank_country_155</id>
+    <name provenance="dbpedia2_country_123">Oman</name>
+    <code provenance="worldbank_country_155">OMN</code>
+    <area provenance="">309499.0</area>
+    <population provenance="">3800305.0</population>
+    <population_density provenance="">12.25915752261079</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_155">21533.8076</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_20+worldbank_country_212</id>
+    <name provenance="worldbank_country_212">Turkmenistan</name>
+    <code provenance="worldbank_country_212">TKM</code>
+    <area provenance="">479014.5</area>
+    <population provenance="">5172442.0</population>
+    <population_density provenance="">10.74479058412507</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_212">6797.721166</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_51+worldbank_country_167</id>
+    <name provenance="dbpedia2_country_51">Puerto Rico</name>
+    <code provenance="worldbank_country_167">PRI</code>
+    <area provenance="">8986.904999999999</area>
+    <population provenance="">3595339.0</population>
+    <population_density provenance="">414.25523363573166</population_density>
+    <gini provenance="dbpedia2_country_51">53.1</gini>
+    <gdp provenance="worldbank_country_167">27752.04274</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_12+worldbank_country_45</id>
+    <name provenance="dbpedia2_country_12">Colombia</name>
+    <code provenance="worldbank_country_45">COL</code>
+    <area provenance="">1125625.0</area>
+    <population provenance="">4.74095495E7</population>
+    <population_density provenance="">41.51677243527685</population_density>
+    <gini provenance="worldbank_country_45">53.54</gini>
+    <gdp provenance="worldbank_country_45">7885.061292</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_124+worldbank_country_100</id>
+    <name provenance="worldbank_country_100">Japan</name>
+    <code provenance="worldbank_country_100">JPN</code>
+    <area provenance="">371252.0</area>
+    <population provenance="">1.269982265E8</population>
+    <population_density provenance="">343.5026676</population_density>
+    <gini provenance="dbpedia2_country_124">37.6</gini>
+    <gdp provenance="worldbank_country_100">46679.26543</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_63+worldbank_country_125</id>
+    <name provenance="dbpedia2_country_63">Malawi</name>
+    <code provenance="worldbank_country_125">MWI</code>
+    <area provenance="">106382.0</area>
+    <population provenance="">1.6053718E7</population>
+    <population_density provenance="">147.66585427244001</population_density>
+    <gini provenance="dbpedia2_country_63">43.9</gini>
+    <gdp provenance="worldbank_country_125">270.0875313</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_8+worldbank_country_27</id>
+    <name provenance="dbpedia2_country_8">Botswana</name>
+    <code provenance="worldbank_country_27">BWA</code>
+    <area provenance="">574230.0</area>
+    <population provenance="">2144303.0</population>
+    <population_density provenance="">3.5907687607569425</population_density>
+    <gini provenance="dbpedia2_country_8">63.0</gini>
+    <gdp provenance="worldbank_country_27">6935.595271</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_16+worldbank_country_19</id>
+    <name provenance="dbpedia2_country_16">Belarus</name>
+    <code provenance="worldbank_country_19">BLR</code>
+    <area provenance="">205252.5</area>
+    <population provenance="">9469550.0</population>
+    <population_density provenance="">46.430969232981866</population_density>
+    <gini provenance="worldbank_country_19">26.01</gini>
+    <gdp provenance="worldbank_country_19">6721.834908</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_149+worldbank_country_108</id>
+    <name provenance="dbpedia2_country_149">Kuwait</name>
+    <code provenance="worldbank_country_108">KWT</code>
+    <area provenance="">17819.55</area>
+    <population provenance="">3732040.5</population>
+    <population_density provenance="">196.03667924710098</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_108">50896.49814</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_21+worldbank_country_205</id>
+    <name provenance="worldbank_country_205">Thailand</name>
+    <code provenance="worldbank_country_205">THA</code>
+    <area provenance="">512002.5</area>
+    <population provenance="">6.69421415E7</population>
+    <population_density provenance="">131.76921120537912</population_density>
+    <gini provenance="worldbank_country_205">39.26</gini>
+    <gdp provenance="worldbank_country_205">5448.828352</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_140+worldbank_country_82</id>
+    <name provenance="worldbank_country_82">Guatemala</name>
+    <code provenance="worldbank_country_82">GTM</code>
+    <area provenance="">108024.0</area>
+    <population provenance="">1.5587717E7</population>
+    <population_density provenance="">137.60820496697414</population_density>
+    <gini provenance="dbpedia2_country_140">55.1</gini>
+    <gdp provenance="worldbank_country_82">3278.629128</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_154+worldbank_country_14</id>
+    <name provenance="dbpedia2_country_154">Azerbaijan</name>
+    <code provenance="worldbank_country_14">AZE</code>
+    <area provenance="">84628.4</area>
+    <population provenance="">9395192.0</population>
+    <population_density provenance="">109.1380455141211</population_density>
+    <gini provenance="dbpedia2_country_154">33.7</gini>
+    <gdp provenance="worldbank_country_14">7393.771877</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_23+worldbank_country_204</id>
+    <name provenance="dbpedia2_country_23">Tanzania</name>
+    <code provenance="worldbank_country_204">TZA</code>
+    <area provenance="">916551.5</area>
+    <population provenance="">4.80228545E7</population>
+    <population_density provenance="">51.215923979143774</population_density>
+    <gini provenance="dbpedia2_country_23">37.8</gini>
+    <gdp provenance="worldbank_country_204">836.4524887</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_72+worldbank_country_210</id>
+    <name provenance="worldbank_country_210">Tunisia</name>
+    <code provenance="worldbank_country_210">TUN</code>
+    <area provenance="">159485.0</area>
+    <population provenance="">1.0880127E7</population>
+    <population_density provenance="">66.16923196060466</population_density>
+    <gini provenance="dbpedia2_country_72">36.1</gini>
+    <gdp provenance="worldbank_country_210">4197.528276</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_6+worldbank_country_183</id>
+    <name provenance="dbpedia2_country_6">Slovenia</name>
+    <code provenance="worldbank_country_183">SVN</code>
+    <area provenance="">20205.9</area>
+    <population provenance="">2059122.0</population>
+    <population_density provenance="">101.6111660845302</population_density>
+    <gini provenance="worldbank_country_183">25.59</gini>
+    <gdp provenance="worldbank_country_183">22488.65889</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_74+worldbank_country_200</id>
+    <name provenance="worldbank_country_200">Switzerland</name>
+    <code provenance="worldbank_country_200">CHE</code>
+    <area provenance="">40400.2</area>
+    <population provenance="">8090330.5</population>
+    <population_density provenance="">196.7663948720409</population_density>
+    <gini provenance="worldbank_country_200">31.64</gini>
+    <gdp provenance="worldbank_country_200">83295.25862</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_2+worldbank_country_166</id>
+    <name provenance="dbpedia2_country_2">Portugal</name>
+    <code provenance="worldbank_country_166">PRT</code>
+    <area provenance="">91900.65</area>
+    <population provenance="">1.04710725E7</population>
+    <population_density provenance="">114.91631406141222</population_density>
+    <gini provenance="worldbank_country_166">36.04</gini>
+    <gdp provenance="worldbank_country_166">20577.40643</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_19+worldbank_country_165</id>
+    <name provenance="worldbank_country_165">Poland</name>
+    <code provenance="worldbank_country_165">POL</code>
+    <area provenance="">309411.0</area>
+    <population provenance="">3.82735605E7</population>
+    <population_density provenance="">123.7785495294321</population_density>
+    <gini provenance="worldbank_country_165">32.39</gini>
+    <gdp provenance="worldbank_country_165">13036.37665</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_104+worldbank_country_35</id>
+    <name provenance="dbpedia2_country_104">Cameroon</name>
+    <code provenance="worldbank_country_35">CMR</code>
+    <area provenance="">474076.0</area>
+    <population provenance="">2.209701E7</population>
+    <population_density provenance="">42.68051598283237</population_density>
+    <gini provenance="dbpedia2_country_104">38.9</gini>
+    <gdp provenance="worldbank_country_35">1222.192142</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_66+worldbank_country_180</id>
+    <name provenance="worldbank_country_180">Singapore</name>
+    <code provenance="worldbank_country_180">SGP</code>
+    <area provenance="">712.15</area>
+    <population provenance="">5391050.0</population>
+    <population_density provenance="">7570.039215312436</population_density>
+    <gini provenance="dbpedia2_country_66">47.8</gini>
+    <gdp provenance="worldbank_country_180">54578.17678</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_43+worldbank_country_172</id>
+    <name provenance="worldbank_country_172">Samoa</name>
+    <code provenance="worldbank_country_172">WSM</code>
+    <area provenance="">2835.6099999999997</area>
+    <population provenance="">191610.5</population>
+    <population_density provenance="">64.9759658183496</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_172">4257.975447</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_55+worldbank_country_31</id>
+    <name provenance="worldbank_country_31">Burkina Faso</name>
+    <code provenance="worldbank_country_31">BFA</code>
+    <area provenance="">273899.5</area>
+    <population provenance="">1.69568045E7</population>
+    <population_density provenance="">59.04212105174255</population_density>
+    <gini provenance="dbpedia2_country_55">39.5</gini>
+    <gdp provenance="worldbank_country_31">673.0267834</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_83+worldbank_country_34</id>
+    <name provenance="dbpedia2_country_83">Cambodia</name>
+    <code provenance="worldbank_country_34">KHM</code>
+    <area provenance="">178777.5</area>
+    <population provenance="">1.5018897E7</population>
+    <population_density provenance="">82.9070681648225</population_density>
+    <gini provenance="worldbank_country_34">30.76</gini>
+    <gdp provenance="worldbank_country_34">947.5594381</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_112+worldbank_country_99</id>
+    <name provenance="dbpedia2_country_112">Jamaica</name>
+    <code provenance="worldbank_country_99">JAM</code>
+    <area provenance="">10910.5</area>
+    <population provenance="">2798496.0</population>
+    <population_density provenance="">251.33483525096113</population_density>
+    <gini provenance="dbpedia2_country_112">45.5</gini>
+    <gdp provenance="worldbank_country_99">5463.762007</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_47+worldbank_country_231</id>
+    <name provenance="dbpedia2_country_47">Zimbabwe</name>
+    <code provenance="worldbank_country_231">ZWE</code>
+    <area provenance="">388802.0</area>
+    <population provenance="">1.3769645E7</population>
+    <population_density provenance="">30.827704759229853</population_density>
+    <gini provenance="dbpedia2_country_47">50.1</gini>
+    <gdp provenance="worldbank_country_231">856.2996191</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_144+worldbank_country_1</id>
+    <name provenance="dbpedia2_country_144">Afghanistan</name>
+    <code provenance="worldbank_country_1">AFG</code>
+    <area provenance="">652544.5</area>
+    <population provenance="">3.07748255E7</population>
+    <population_density provenance="">44.43315383626137</population_density>
+    <gini provenance="dbpedia2_country_144">29.0</gini>
+    <gdp provenance="worldbank_country_1">690.842629</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_122+worldbank_country_102</id>
+    <name provenance="dbpedia2_country_122">Kazakhstan</name>
+    <code provenance="worldbank_country_102">KAZ</code>
+    <area provenance="">2712295.0</area>
+    <population provenance="">1.73701205E7</population>
+    <population_density provenance="">6.080396743992061</population_density>
+    <gini provenance="worldbank_country_102">27.43</gini>
+    <gdp provenance="worldbank_country_102">12120.30534</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_125+worldbank_country_22</id>
+    <name provenance="dbpedia2_country_125">Benin</name>
+    <code provenance="worldbank_country_22">BEN</code>
+    <area provenance="">112691.5</area>
+    <population provenance="">1.0186396E7</population>
+    <population_density provenance="">83.60521686432064</population_density>
+    <gini provenance="dbpedia2_country_125">36.5</gini>
+    <gdp provenance="worldbank_country_22">750.5810826</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_114+worldbank_country_63</id>
+    <name provenance="worldbank_country_63">Equatorial Guinea</name>
+    <code provenance="worldbank_country_63">GNQ</code>
+    <area provenance="">28049.8</area>
+    <population provenance="">1197864.5</population>
+    <population_density provenance="">25.840154458262155</population_density>
+    <gini provenance="">null</gini>
+    <gdp provenance="worldbank_country_63">21306.96023</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_119+worldbank_country_207</id>
+    <name provenance="dbpedia2_country_119">Togo</name>
+    <code provenance="worldbank_country_207">TGO</code>
+    <area provenance="">55587.5</area>
+    <population provenance="">6949909.0</population>
+    <population_density provenance="">108.92263676290717</population_density>
+    <gini provenance="dbpedia2_country_119">39.3</gini>
+    <gdp provenance="worldbank_country_207">580.495021</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_80+worldbank_country_169</id>
+    <name provenance="dbpedia2_country_80">Romania</name>
+    <code provenance="worldbank_country_169">ROM</code>
+    <area provenance="">234205.0</area>
+    <population provenance="">2.00003385E7</population>
+    <population_density provenance="">85.80111551934468</population_density>
+    <gini provenance="worldbank_country_169">27.33</gini>
+    <gdp provenance="worldbank_country_169">8445.29664</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_42+worldbank_country_131</id>
+    <name provenance="worldbank_country_131">Mauritania</name>
+    <code provenance="worldbank_country_131">MRT</code>
+    <area provenance="">1030700.0</area>
+    <population provenance="">3568126.0</population>
+    <population_density provenance="">3.423791854512014</population_density>
+    <gini provenance="dbpedia2_country_42">40.5</gini>
+    <gdp provenance="worldbank_country_131">1282.785101</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_84+worldbank_country_221</id>
+    <name provenance="worldbank_country_221">Uruguay</name>
+    <code provenance="worldbank_country_221">URY</code>
+    <area provenance="">175617.5</area>
+    <population provenance="">3360606.5</population>
+    <population_density provenance="">19.137637421595976</population_density>
+    <gini provenance="worldbank_country_221">41.32</gini>
+    <gdp provenance="worldbank_country_221">15127.34622</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_130+worldbank_country_113</id>
+    <name provenance="worldbank_country_113">Lesotho</name>
+    <code provenance="worldbank_country_113">LSO</code>
+    <area provenance="">30357.5</area>
+    <population provenance="">2062165.5</population>
+    <population_density provenance="">66.5830104818233</population_density>
+    <gini provenance="dbpedia2_country_130">52.5</gini>
+    <gdp provenance="worldbank_country_113">1158.794394</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+  <country>
+    <id>dbpedia2_country_14+worldbank_country_36</id>
+    <name provenance="dbpedia2_country_14">Canada</name>
+    <code provenance="worldbank_country_36">CAN</code>
+    <area provenance="">9537770.0</area>
+    <population provenance="">3.5215073E7</population>
+    <population_density provenance="">3.564602418975576</population_density>
+    <gini provenance="dbpedia2_country_14">33.7</gini>
+    <gdp provenance="worldbank_country_36">52733.47369</gdp>
+    <latitude provenance="">null</latitude>
+    <longitude provenance="">null</longitude>
+  </country>
+</countries>

@@ -11,7 +11,7 @@ ContinuousPercentageSimlarity sim = new ContinuousPercentageSimlarity();
 	
 	@Override
 	public boolean isEqual(FusableCountry record1, FusableCountry record2) {
-		System.out.println("Gdp: " + record1.getGdp() + " & " + record2.getGdp() + " = "+ sim.calculate(record1.getGdp(), record2.getGdp()));
+//		System.out.println("Gdp: " + record1.getGdp() + " & " + record2.getGdp() + " = "+ sim.calculate(record1.getGdp(), record2.getGdp()));
 
 		return sim.calculate(record1.getGdp(), record2.getGdp()) > 0.98;
 	}

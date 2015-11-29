@@ -83,7 +83,7 @@ public class FusableCity extends City implements Fusable{
 	
 	@Override
 	public String toString() {
-		return String.format("[City: Name: %s / Lat %s / Lon %s / Ele %s /  Pop %s /  PoD %s]", getName(), getLatitude(), getLongitude(), getElevation(), getPopulation(), getPopulationDensity());
+		return String.format("[City: Name: %s / Lat %s / Lon %s / Ele %s /  Pop %s]", getName(), getLatitude(), getLongitude(), getElevation(), getPopulation());
 	}
 
 }

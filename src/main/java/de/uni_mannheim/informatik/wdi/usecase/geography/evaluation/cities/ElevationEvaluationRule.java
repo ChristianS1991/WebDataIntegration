@@ -14,7 +14,7 @@ public class ElevationEvaluationRule extends EvaluationRule<FusableCity>{
 	@Override
 	public boolean isEqual(FusableCity record1, FusableCity record2) {
 		if (record1.getName() != null){
-			System.out.println("EleSim: " + Math.abs(record1.getElevation()-record2.getElevation()) + " " + sim2.calculate(record1.getElevation(), record2.getElevation()));
+//			System.out.println("EleSim: " + Math.abs(record1.getElevation()-record2.getElevation()) + " " + sim2.calculate(record1.getElevation(), record2.getElevation()));
 			return Math.abs(record1.getElevation()-record2.getElevation()) < 10 || sim2.calculate(record1.getElevation(), record2.getElevation()) > 0.98 ;
 		}else{
 			return true;

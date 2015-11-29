@@ -12,7 +12,7 @@ public class PopulationDensityEvaluationRule extends EvaluationRule<FusableCity>
 	@Override
 	public boolean isEqual(FusableCity record1, FusableCity record2) {
 		if (record1.getName() != null){
-			System.out.println("PopDen: " + record1.getPopulation() + " & " + record2.getPopulation() + " = "+ sim.calculate(record1.getPopulation(), record2.getPopulation()));
+//			System.out.println("PopDen: " + record1.getPopulation() + " & " + record2.getPopulation() + " = "+ sim.calculate(record1.getPopulation(), record2.getPopulation()));
 
 			return sim.calculate(record1.getElevation(), record2.getElevation()) > 0.9;
 		}else{

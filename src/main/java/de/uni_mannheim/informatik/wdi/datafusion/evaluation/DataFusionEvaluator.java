@@ -62,7 +62,7 @@ public class DataFusionEvaluator<RecordType extends Matchable & Fusable> {
 					if((!f.hasValue(record) && !f.hasValue(fused)) // neither gs nor fused record has a value
 						|| (f.hasValue(record) && f.hasValue(fused) && r.isEqual(fused, record))) { // both have a value and it's the same value
 						correctValues++;
-						System.out.println(String.format("[correct] %s: %s <> %s", r.getClass().getSimpleName(), fused.toString(), record.toString()));
+//						System.out.println(String.format("[correct] %s: %s <> %s", r.getClass().getSimpleName(), fused.toString(), record.toString()));
 					} else if(verbose) {
 						System.out.println(String.format("[error] %s: %s <> %s", r.getClass().getSimpleName(), fused.toString(), record.toString()));
 					}

@@ -86,7 +86,7 @@ private Map<String, Collection<String>> provenance = new HashMap<>();
 	
 	@Override
 	public String toString() {
-		return String.format("[Country: %s / %s / %s / %s / %s / %s / %s / %s / %s / &s]", getName(), getCode(), getArea(), getPopulation(), getPopulationDensity(), getGini(), getGdp(), getLatitude(), getLongitude());
+		return String.format("[Country: %s / %s / %s / %s / %s / %s / %s]", getName(), getCode(), getArea(), getPopulation(), getPopulationDensity(), getGini(), getGdp());
 	}
 
 
