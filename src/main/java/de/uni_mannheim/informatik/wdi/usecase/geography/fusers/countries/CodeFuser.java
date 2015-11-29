@@ -4,12 +4,13 @@ import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.LongestString;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.ShortestString;
 import de.uni_mannheim.informatik.wdi.usecase.geography.FusableCountry;
 
 public class CodeFuser extends AttributeValueFuser<String, FusableCountry> {
 	
 	public CodeFuser() {
-		super(new LongestString<FusableCountry>());
+		super(new ShortestString<FusableCountry>());
 	}
 	
 	@Override

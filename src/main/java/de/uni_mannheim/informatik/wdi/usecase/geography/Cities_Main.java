@@ -50,12 +50,12 @@ public class Cities_Main {
 	
 		
 		// set dataset metadata
-		ds1.setScore(1.0);
-		ds2.setScore(2.0);
-		ds3.setScore(3.0);
-		ds1.setDate(DateTime.parse("2012-01-01"));
-		ds2.setDate(DateTime.parse("2010-01-01"));
-		ds3.setDate(DateTime.parse("2008-01-01"));
+		ds1.setScore(1); // DBPedia seems to have relative good data, but the data origin is not always transparent
+		ds2.setScore(0.7); // The source of the data set is fully traceable as only litte metadata are provided
+		ds3.setScore(0.5); // Productive open source data of a company, seems to be reliable
+		ds1.setDate(DateTime.parse("2013-01-01"));
+		ds2.setDate(DateTime.parse("2011-10-18")); //Creation date of dataset
+		ds3.setDate(DateTime.parse("2012-08-01")); //Median value of modification date of single entries
 		
 		// print dataset density
 		System.out.println("dbp_cities.xml");
@@ -78,12 +78,12 @@ public class Cities_Main {
 		// add attribute fusers
 		// Note: The attribute name is only used for printing the reports
 		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
-		strategy.addAttributeFuser("Region", new RegionFuser(), new RegionEvaluationRule());
+//		strategy.addAttributeFuser("Region", new RegionFuser(), new RegionEvaluationRule());
 		strategy.addAttributeFuser("Population", new PopulationFuser(), new PopulationEvaluationRule());
-		strategy.addAttributeFuser("PopulationDensity", new PopulationDensityFuser(), new PopulationDensityEvaluationRule());
+//		strategy.addAttributeFuser("PopulationDensity", new PopulationDensityFuser(), new PopulationDensityEvaluationRule());
 		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
 		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
-		strategy.addAttributeFuser("Elevation", new ElevationFuser(), new ElevationEvaluationRule());
+	    strategy.addAttributeFuser("Elevation", new ElevationFuser(), new ElevationEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCity> engine = new DataFusionEngine<>(strategy);
@@ -97,18 +97,18 @@ public class Cities_Main {
 		// write the result
 		fusedDataSet.writeXML(new File("usecase/geography/output/CitiesFusedWithoutCountryIdentifier.xml"), new CityXMLFormatter());
 		
-		/*// load the gold standard
+		// load the gold standard
 		DataSet<FusableCity> gs = new FusableDataSet<>();
 		gs.loadFromXML(
-				new File("usecase/movie/goldstandard/fused.xml"),
-				new FusableCityFactory(), "/movies/movie");
+				new File("usecase/geography/goldstandard/datafusion/gs_cities.xml"),
+				new FusableCityFactory(), "/cities/city");
 		
 		// evaluate
 		DataFusionEvaluator<FusableCity> evaluator = new DataFusionEvaluator<>(strategy);
 		evaluator.setVerbose(true);
 		double accuracy = evaluator.evaluate(fusedDataSet, gs);
 		
-		System.out.println(String.format("Accuracy: %.2f", accuracy));*/
+		System.out.println(String.format("Accuracy: %.2f", accuracy));
 		
 	}
 

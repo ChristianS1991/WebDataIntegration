@@ -1,0 +1,142 @@
+<cities>
+	<city id="dbpedia1_city_3">
+		<city_name>Pontevedra</city_name>
+		<city_population>82946</city_population>
+		<city_latitude>42.431</city_latitude>
+		<city_longtitude>-8.64435</city_longtitude>
+		<city_elevation>29</city_elevation>
+	</city>
+	<city id="dbpedia1_city_23">
+		<city_name>Pullman</city_name>
+		<city_population>31395</city_population>
+		<city_latitude>46.73127</city_latitude>
+		<city_longtitude>-117.17962</city_longtitude>
+		<city_elevation>713</city_elevation>
+	</city>
+	<city id="dbpedia1_city_43">
+		<city_name>Bentonville</city_name>
+		<city_population>40167</city_population>
+		<city_latitude>36.37285</city_latitude>
+		<city_longtitude>-94.20882</city_longtitude>
+		<city_elevation>400</city_elevation>
+	</city>
+	<city id="dbpedia1_city_177">
+		<city_name>Aberdeen</city_name>
+		<city_population>27333</city_population>
+		<city_latitude>45.4647</city_latitude>
+		<city_longtitude>-98.48648</city_longtitude>
+		<city_elevation>397</city_elevation>
+	</city>
+	<city id="dbpedia1_city_342">
+		<city_name>Bullhead City</city_name>
+		<city_population>39383</city_population>
+		<city_latitude>35.14778</city_latitude>
+		<city_longtitude>-114.5683</city_longtitude>
+		<city_elevation>173</city_elevation>
+	</city>
+	<city id="dbpedia1_city_510">
+		<city_name>Baton Rouge</city_name>
+		<city_population>229426</city_population>
+		<city_latitude>30.45075</city_latitude>
+		<city_longtitude>-91.15455</city_longtitude>
+		<city_elevation>20</city_elevation>
+	</city>
+	<city id="dbpedia1_city_822">
+		<city_name>Natchez</city_name>
+		<city_population>15513</city_population>
+		<city_latitude>31.56044</city_latitude>
+		<city_longtitude>-91.40317</city_longtitude>
+		<city_elevation>71</city_elevation>
+	</city>
+	<city id="dbpedia1_city_988">
+		<city_name>Xenia</city_name>
+		<city_population>25879</city_population>
+		<city_latitude>39.68478</city_latitude>
+		<city_longtitude>-83.92965</city_longtitude>
+		<city_elevation>285</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2201">
+		<city_name>Kollam</city_name>
+		<city_population>361560</city_population>
+		<city_latitude>8.88113</city_latitude>
+		<city_longtitude>76.58469</city_longtitude>
+		<city_elevation>13</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2270">
+		<city_name>Sultanpur</city_name>
+		<city_population>100065</city_population>
+		<city_latitude>26.25996</city_latitude>
+		<city_longtitude>82.07314</city_longtitude>
+		<city_elevation>104</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2362">
+		<city_name>Bolhrad</city_name>
+		<city_population>15479</city_population>
+		<city_latitude>45.68262</city_latitude>
+		<city_longtitude>28.61487</city_longtitude>
+		<city_elevation>70</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2400">
+		<city_name>Saskatoon</city_name>
+		<city_population>222190</city_population>
+		<city_latitude>52.11679</city_latitude>
+		<city_longtitude>-106.63452</city_longtitude>
+		<city_elevation>501</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2513">
+		<city_name>Ottawa</city_name>
+		<city_population>870250</city_population>
+		<city_latitude>45.41117</city_latitude>
+		<city_longtitude>-75.69812</city_longtitude>
+		<city_elevation>71</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2655">
+		<city_name>Fujinomiya</city_name>
+		<city_population>131325</city_population>
+		<city_latitude>35.21667</city_latitude>
+		<city_longtitude>138.61667</city_longtitude>
+		<city_elevation>116</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2856">
+		<city_name>Galle</city_name>
+		<city_population>99478</city_population>
+		<city_latitude>6.0367</city_latitude>
+		<city_longtitude>80.217</city_longtitude>
+		<city_elevation>17</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2931">
+		<city_name>Montevideo</city_name>
+		<city_population>1305000</city_population>
+		<city_latitude>-34.90328</city_latitude>
+		<city_longtitude>-56.18816</city_longtitude>
+		<city_elevation>34</city_elevation>
+	</city>
+	<city id="dbpedia1_city_2953">
+		<city_name>Belgrade</city_name>
+		<city_population>1273651</city_population>
+		<city_latitude>44.80401</city_latitude>
+		<city_longtitude>20.46513</city_longtitude>
+		<city_elevation>120</city_elevation>
+	</city>
+	<city id="dbpedia1_city_3007">
+		<city_name>Pokhara</city_name>
+		<city_population>264991</city_population>
+		<city_latitude>28.26689</city_latitude>
+		<city_longtitude>83.96851</city_longtitude>
+		<city_elevation>1008</city_elevation>
+	</city>
+	<city id="dbpedia1_city_3042">
+		<city_name>Harare</city_name>
+		<city_population>1485000</city_population>
+		<city_latitude>-17.82772</city_latitude>
+		<city_longtitude>31.05337</city_longtitude>
+		<city_elevation>1494</city_elevation>
+	</city>
+	<city id="dbpedia1_city_3031">
+		<city_name>Kingston</city_name>
+		<city_population>937700</city_population>
+		<city_latitude>17.99702</city_latitude>
+		<city_longtitude>-76.79358</city_longtitude>
+		<city_elevation>3</city_elevation>
+	</city>
+</cities>

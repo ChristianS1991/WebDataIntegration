@@ -12,6 +12,7 @@ public class NameEvaluationRule extends EvaluationRule<FusableCity>{
 	@Override
 	public boolean isEqual(FusableCity record1, FusableCity record2) {
 		// the title is correct if all tokens are there, but the order does not matter
+//		System.out.println("Name: " + record1.getName() + "&" + record2.getName() + " = " + sim.calculate(record1.getName(), record2.getName()));
 		return sim.calculate(record1.getName(), record2.getName()) == 1.0;
 	}
 

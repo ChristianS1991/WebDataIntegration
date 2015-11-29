@@ -1,0 +1,164 @@
+<countries>
+	<country id="dbpedia2_country_2">
+		<country_name>Portugal</country_name>
+		<country_code>PT</country_code>
+		<country_area>92090</country_area>
+		<country_population>10814000</country_population>
+		<country_population_density>117.4</country_population_density>
+		<country_gini>38.5</country_gini>
+		<country_gdp>18300.44</country_gdp>
+	</country>
+	<country id="dbpedia2_country_4">
+		<country_name>Mexico</country_name>
+		<country_code>MX</country_code>
+		<country_area>1964375</country_area>
+		<country_population>120287000</country_population>
+		<country_population_density>61.2</country_population_density>
+		<country_gini>51.7</country_gini>
+		<country_gdp>8626.2</country_gdp>
+	</country>
+	<country id="dbpedia2_country_7">
+		<country_name>Hungary</country_name>
+		<country_code>HU</country_code>
+		<country_area>93028</country_area>
+		<country_population>9919000</country_population>
+		<country_population_density>106.6</country_population_density>
+		<country_gini>24.7</country_gini>
+		<country_gdp>11888.11</country_gdp>
+	</country>
+	<country id="dbpedia2_country_12">
+		<country_name>Colombia</country_name>
+		<country_code>CO</country_code>
+		<country_area>1138910</country_area>
+		<country_population>46245000</country_population>
+		<country_population_density>40.6</country_population_density>
+		<country_gini>56</country_gini>
+		<country_gdp>4549.4</country_gdp>
+	</country>
+	<country id="dbpedia2_country_21">
+		<country_name>Thailand</country_name>
+		<country_code>TH</country_code>
+		<country_area>513120</country_area>
+		<country_population>67741000</country_population>
+		<country_population_density>132</country_population_density>
+		<country_gini>53.6</country_gini>
+		<country_gdp>3451.33</country_gdp>
+	</country>
+	<country id="dbpedia2_country_90">
+		<country_name>Democratic Republic of the Congo</country_name>
+		<country_code>CG</country_code>
+		<country_area>2344858</country_area>
+		<country_population>77434000</country_population>
+		<country_population_density>33</country_population_density>
+		<country_gini>44.4</country_gini>
+		<country_gdp>2038.1</country_gdp>
+	</country>
+	<country id="dbpedia2_country_29">
+		<country_name>Cyprus</country_name>
+		<country_code>CY</country_code>
+		<country_area>9251</country_area>
+		<country_population>1172000</country_population>
+		<country_population_density>126.7</country_population_density>
+		<country_gini>29</country_gini>
+		<country_gdp>21852.09</country_gdp>
+	</country>
+	<country id="dbpedia2_country_48">
+		<country_name>Ecuador</country_name>
+		<country_code>EC</country_code>
+		<country_area>283561</country_area>
+		<country_population>15654000</country_population>
+		<country_population_density>55.2</country_population_density>
+		<country_gini>47.3</country_gini>
+		<country_gdp>3782.42</country_gdp>
+	</country>
+	<country id="dbpedia2_country_6">
+		<country_name>Slovenia</country_name>
+		<country_code>SI</country_code>
+		<country_area>20273</country_area>
+		<country_population>1988000</country_population>
+		<country_population_density>98.1</country_population_density>
+		<country_gini>28.4</country_gini>
+		<country_gdp>19110.56</country_gdp>
+	</country>
+	<country id="dbpedia2_country_98">
+		<country_name>Germany</country_name>
+		<country_code>DE</country_code>
+		<country_area>357022</country_area>
+		<country_population>80997000</country_population>
+		<country_population_density>226.9</country_population_density>
+		<country_gini>27</country_gini>
+		<country_gdp>39717.7</country_gdp>
+	</country>
+	<country id="dbpedia2_country_100">
+		<country_name>South Africa</country_name>
+		<country_code>ZA</country_code>
+		<country_area>1219090</country_area>
+		<country_population>48376000</country_population>
+		<country_population_density>39.7</country_population_density>
+		<country_gini>65</country_gini>
+		<country_gdp>6086.45</country_gdp>
+	</country>
+	<country id="dbpedia2_country_121">
+		<country_name>United Kingdom</country_name>
+		<country_code>GB</country_code>
+		<country_area>243610</country_area>
+		<country_population>63743000</country_population>
+		<country_population_density>261.7</country_population_density>
+		<country_gini>34</country_gini>
+		<country_gdp>40967.7</country_gdp>
+	</country>
+	<country id="dbpedia2_country_122">
+		<country_name>Kazakhstan</country_name>
+		<country_code>KZ</country_code>
+		<country_area>2724900</country_area>
+		<country_population>17949000</country_population>
+		<country_population_density>6.6</country_population_density>
+		<country_gini>26.7</country_gini>
+		<country_gdp>5575.55</country_gdp>
+	</country>
+	<country id="dbpedia2_country_93">
+		<country_name>Kosovo</country_name>
+		<country_code>RS</country_code>
+		<country_area>10887</country_area>
+		<country_population>1859000</country_population>
+		<country_population_density>170.8</country_population_density>
+		<country_gini>30</country_gini>
+		<country_gdp>2863.47</country_gdp>
+	</country>
+	<country id="dbpedia2_country_18">
+		<country_name>Lao People's Democratic Republic</country_name>
+		<country_code>LA</country_code>
+		<country_area>236800</country_area>
+		<country_population>6804000</country_population>
+		<country_population_density>28.7</country_population_density>
+		<country_gini>36.7</country_gini>
+		<country_gdp>793.94</country_gdp>
+	</country>
+	<country id="dbpedia2_country_44">
+		<country_name>United States</country_name>
+		<country_code>US</country_code>
+		<country_area>9826675</country_area>
+		<country_population>318892000</country_population>
+		<country_population_density>32.5</country_population_density>
+		<country_gini>45.00</country_gini>
+		<country_gdp>46405.26</country_gdp>
+	</country>
+	<country id="dbpedia2_country_14">
+		<country_name>Canada</country_name>
+		<country_code>CA</country_code>
+		<country_area>9984670 </country_area>
+		<country_population>34835000</country_population>
+		<country_population_density>3.5</country_population_density>
+		<country_gini>32.1</country_gini>
+		<country_gdp>38293.28</country_gdp>
+	</country>
+	<country id="dbpedia2_country_84">
+		<country_name>Uruguay</country_name>
+		<country_code>UY</country_code>
+		<country_area>176215</country_area>
+		<country_population>3333000</country_population>
+		<country_population_density>189</country_population_density>
+		<country_gini>45.3</country_gini>
+		<country_gdp>8018.61</country_gdp>
+	</country>
+</countries>

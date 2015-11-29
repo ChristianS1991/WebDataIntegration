@@ -70,10 +70,10 @@ public class Countries_Main {
 		
 		// set dataset metadata
 		ds1.setScore(1.0);
-		ds2.setScore(2.0);
-		ds3.setScore(3.0);
-		ds4.setScore(3.0);
-		ds5.setScore(3.0);
+		ds2.setScore(0.5);
+		ds3.setScore(0.3);
+		ds4.setScore(0.3);
+		ds5.setScore(0.3);
 		ds1.setDate(DateTime.parse("2012-01-01"));
 		ds2.setDate(DateTime.parse("2010-01-01"));
 		ds3.setDate(DateTime.parse("2008-01-01"));
@@ -113,9 +113,9 @@ public class Countries_Main {
 		strategy.addAttributeFuser("PopulationDensity", new PopulationDensityFuser(), new PopulationDensityEvaluationRule());
 		strategy.addAttributeFuser("GINI", new GiniFuser(), new GiniEvaluationRule());
 		strategy.addAttributeFuser("GDP", new GdpFuser(), new GdpEvaluationRule());
-		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
-		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
-		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
+//		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
+//		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
+//		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
 		// create the fusion engine
 		DataFusionEngine<FusableCountry> engine = new DataFusionEngine<>(strategy);
 		
@@ -128,19 +128,19 @@ public class Countries_Main {
 		// write the result
 		fusedDataSet.writeXML(new File("usecase/geography/output/CountriesWithBasicCitiesList.xml"), new CountryXMLFormatter());
 		System.out.println("Successful");
-		/*
+		
 		// load the gold standard
 		DataSet<FusableCountry> gs = new FusableDataSet<>();
 		gs.loadFromXML(
-				new File("usecase/geography/goldstandard/fused.xml"),
-				new FusableCountryFactory(), "/cities/city");
+				new File("usecase/geography/goldstandard/datafusion/gs_countries.xml"),
+				new FusableCountryFactory(), "/countries/country");
 		
 		// evaluate
 		DataFusionEvaluator<FusableCountry> evaluator = new DataFusionEvaluator<>(strategy);
 		evaluator.setVerbose(true);
 		double accuracy = evaluator.evaluate(fusedDataSet, gs);
 		
-		System.out.println(String.format("Accuracy: %.2f", accuracy));*/
+		System.out.println(String.format("Accuracy: %.2f", accuracy));
 		
 	}
 }

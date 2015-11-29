@@ -3,13 +3,13 @@ package de.uni_mannheim.informatik.wdi.usecase.geography.fusers.cities;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
-import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.numeric.Average;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.numeric.MinProvAverage;
 import de.uni_mannheim.informatik.wdi.usecase.geography.FusableCity;
 
 public class PopulationFuser extends AttributeValueFuser<Double, FusableCity> {
 
 	public PopulationFuser() {
-		super(new Average<FusableCity>());
+		super(new MinProvAverage<FusableCity>());
 	}
 	
 	@Override

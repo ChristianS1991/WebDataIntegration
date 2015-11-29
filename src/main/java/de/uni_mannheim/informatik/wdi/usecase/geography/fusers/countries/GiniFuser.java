@@ -3,13 +3,14 @@ package de.uni_mannheim.informatik.wdi.usecase.geography.fusers.countries;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.meta.FavourSources;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.numeric.Average;
 import de.uni_mannheim.informatik.wdi.usecase.geography.FusableCountry;
 
 public class GiniFuser extends AttributeValueFuser<Double, FusableCountry> {
 
 	public GiniFuser() {
-		super(new Average<FusableCountry>());
+		super(new FavourSources<Double,FusableCountry>());
 	}
 	
 	@Override
