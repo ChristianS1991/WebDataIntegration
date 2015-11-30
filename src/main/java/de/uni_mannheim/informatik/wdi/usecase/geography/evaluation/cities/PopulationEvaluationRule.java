@@ -10,12 +10,10 @@ public class PopulationEvaluationRule extends EvaluationRule<FusableCity>{
 
 	@Override
 	public boolean isEqual(FusableCity record1, FusableCity record2) {
-		if (record1.getPopulation() != null){
+		
 //			System.out.println("Population: " + record1.getPopulation() + " & " + record2.getPopulation() + " = "+ sim.calculate(record1.getPopulation(), record2.getPopulation()));
-			return sim.calculate(record1.getPopulation(), record2.getPopulation()) > 0.98;
-		}else{
-			return true;
-		}
+			return sim.calculate(record1.getPopulation(), record2.getPopulation()) > 0.95;
+		
 		
 	}
 	

@@ -10,12 +10,10 @@ public class LatitudeEvaluationRule extends EvaluationRule<FusableCity>{
 
 	@Override
 	public boolean isEqual(FusableCity record1, FusableCity record2) {
-		if (record1.getName() != null){
+		
 //			System.out.println("LatSim: " + sim.calculate(record1.getLatitude(), record2.getLatitude()));
 			return sim.calculate(record1.getLatitude(), record2.getLatitude()) > 0.9;
-		}else{
-			return true;
-		}
+		
 		
 	}
 	
