@@ -13,6 +13,8 @@ public class CityLatitudeComparatorAbsolute extends Comparator<City>{
         Double first = record1.getLatitude();
         Double second = record2.getLatitude();
         
+        if(first == null || second == null) return 0;
+        
         if(first < 0 || second < 0){
             first = Math.abs(first);
             second = Math.abs(second);

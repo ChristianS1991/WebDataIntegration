@@ -14,6 +14,8 @@ public class CityLongtitudeComparatorAbsolute extends Comparator<City>{
         Double first = record1.getLongitude();
         Double second = record2.getLongitude();
         
+        if(first == null || second == null) return 0d;
+        
         if(first < 0 || second < 0){
             first = Math.abs(first);
             second = Math.abs(second);

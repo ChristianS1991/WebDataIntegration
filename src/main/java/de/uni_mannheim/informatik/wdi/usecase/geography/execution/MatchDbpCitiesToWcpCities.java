@@ -24,13 +24,13 @@ import de.uni_mannheim.informatik.wdi.usecase.geography.comparators.city.CityNam
 public class MatchDbpCitiesToWcpCities {
 
     public static void main(String[] args) throws Exception{
-        LinearCombinationMatchingRule<City> rule = new LinearCombinationMatchingRule<City>(0.99);
+        LinearCombinationMatchingRule<City> rule = new LinearCombinationMatchingRule<City>(0.80);
         
-//        rule.addComparator(new CityNameComparatorLevenshtein(), 0.3);
+        rule.addComparator(new CityNameComparatorLevenshtein(), 1);
 //        rule.addComparator(new CityLatitudeComparatorAbsolute(), 0.3);
 //        rule.addComparator(new CityLongtitudeComparatorAbsolute(), 0.3);
         
-        rule.addComparator(new CityCustomComperatorDistancePopulation(), 1);
+//        rule.addComparator(new CityCustomComperatorDistancePopulation(), 1);
 
         PartitioningBlocker<City> blocker = new PartitioningBlocker<City>(new CityBlockingFunction());
         
@@ -52,12 +52,12 @@ public class MatchDbpCitiesToWcpCities {
         printCorrespondences(correspondences);
         System.out.println(correspondences.size());
         
-        engine.writeCorrespondences(correspondences, new File("usecase/geography/output/dbp_cities_wcp_cities_correspondences.csv"));
+//        engine.writeCorrespondences(correspondences, new File("usecase/geography/output/dbp_cities_wcp_cities_correspondences.csv"));
         
         // load the gold standard (test set)
         GoldStandard gsTest = new GoldStandard();
         gsTest.loadFromCSVFile(new File(
-                "usecase/geography/goldstandard/dbp_cities_wcp_cities.csv"));
+                "usecase/geography/goldstandard/identityresolution/dbp_cities_wcp_cities.csv"));
 
         // evaluate the result
         MatchingEvaluator<City> evaluator = new MatchingEvaluator<>(true);
@@ -68,10 +68,10 @@ public class MatchDbpCitiesToWcpCities {
                 "Precision: %.4f\nRecall: %.4f\nF1: %.4f", perfTest.getPrecision(),
                 perfTest.getRecall(), perfTest.getF1()));
         
-        DataSet<DefaultRecord> features = engine.generateTrainingDataForLearning(ds1, ds2, gsTest);
-        features.writeCSV(
-        		new File("usecase/geography/output/optimisation/dbp_cities_wcp_cities_features.csv"), 
-        		new DefaultRecordCSVFormatter());
+//        DataSet<DefaultRecord> features = engine.generateTrainingDataForLearning(ds1, ds2, gsTest);
+//        features.writeCSV(
+//        		new File("usecase/geography/output/optimisation/dbp_cities_wcp_cities_features.csv"), 
+//        		new DefaultRecordCSVFormatter());
     }
     
     
@@ -79,7 +79,7 @@ public class MatchDbpCitiesToWcpCities {
         // sort the correspondences
         
         for(Correspondence<City> corr : correspondences){
-            if (corr.getSimilarityScore() < 0.8) {
+            if (corr.getSimilarityScore() < 0.9) {
                 System.out.println(corr.getFirstRecord().getName() +"(" +corr.getFirstRecord().getIdentifier()+ ")\t" + corr.getSimilarityScore() + "\t" + corr.getSecondRecord().getName() + "(" +corr.getSecondRecord().getIdentifier()+ ")");
             }
             
