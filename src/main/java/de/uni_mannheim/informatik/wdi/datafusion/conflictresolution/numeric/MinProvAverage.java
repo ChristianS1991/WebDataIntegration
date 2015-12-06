@@ -31,7 +31,7 @@ public class MinProvAverage<RecordType extends Matchable & Fusable> extends Conf
 			double count = 0.0;
 			
 			for(FusableValue<Double, RecordType> value : values) {
-				if(value.getDataSourceScore()>0.4){
+				if(value.getDataSourceScore()>0.6){
 				
 				sum += (Double) value.getValue();
 				count++;

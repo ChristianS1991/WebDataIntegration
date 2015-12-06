@@ -6,13 +6,16 @@ import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.Voting;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.meta.FavourSources;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.LongestString;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.ShortestString;
 import de.uni_mannheim.informatik.wdi.usecase.geography.FusableCity;
 
 
 public class NameFuser extends AttributeValueFuser<String, FusableCity> {
 	
 	public NameFuser() {
-		super(new Voting<String,FusableCity>());
+		super(new Voting<String, FusableCity>());
 	}
 	
 	@Override

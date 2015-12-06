@@ -29,7 +29,7 @@ public class CountryXMLFormatter extends XMLFormatter<FusableCountry> {
 		country.appendChild(createTextElementWithProvenance("gdp", String.valueOf(record.getGdp()), record.getMergedAttributeProvenance(FusableCountry.GDP),doc));
 		country.appendChild(createTextElementWithProvenance("latitude", String.valueOf(record.getLatitude()), record.getMergedAttributeProvenance(FusableCountry.LATITUDE),doc));
 		country.appendChild(createTextElementWithProvenance("longitude", String.valueOf(record.getLongitude()), record.getMergedAttributeProvenance(FusableCountry.LONGITUDE),doc));
-		//country.appendChild(createCitiesElement(record, doc));
+		country.appendChild(createCitiesElement(record, doc));
 		
 		return country;
 	}
@@ -44,7 +44,9 @@ public class CountryXMLFormatter extends XMLFormatter<FusableCountry> {
 		Element cityRoot = cityFormatter.createRootElement(doc);
 		cityRoot.setAttribute("provenance", record.getMergedAttributeProvenance(FusableCountry.CITIES));
 		
-		
+		for(City c : record.getCities()) {
+			cityRoot.appendChild(cityFormatter.createElementFromRecord(c, doc));
+		}
 		
 		return cityRoot;
 	}

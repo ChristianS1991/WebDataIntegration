@@ -23,8 +23,8 @@ public class FuseCountriesAndCities {
     public static void main(String[] args) throws Exception{
         DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
         Document finalFile  = builder.newDocument();
-        Document countries  = builder.parse(new File("usecase/geocomplete/output/CountriesWithBasicCitiesList.xml"));
-        Document cities     = builder.parse(new File("usecase/geography/output/CitiesFusedWithoutCountryIdentifier.xml"));
+        Document countries  = builder.parse(new File("usecase/geography/output/datafusion/CountriesWithCitiesList.xml"));
+        Document cities     = builder.parse(new File("usecase/geography/output/datafusion/CitiesFusedWithoutCountryIdentifier.xml"));
         
         NodeList countriesList = countries.getElementsByTagName("country");
         
@@ -34,6 +34,7 @@ public class FuseCountriesAndCities {
         
         
         for(int i = 0; i < countriesList.getLength(); i++){
+        	System.out.println("Country: " + i);
             Node country = countriesList.item(i);
             NodeList countryData = country.getChildNodes();
             Element countryElement = finalFile.createElement("country");
@@ -87,7 +88,7 @@ public class FuseCountriesAndCities {
         
         finalFile.appendChild(countriesElement);
         
-        String filename = "usecase/geocomplete/test.xml";
+        String filename = "usecase/geography/output/datafusion/CountriesInclFusedCities.xml";
 
         Source source = new DOMSource(finalFile);
 
@@ -103,10 +104,10 @@ public class FuseCountriesAndCities {
     public static Node resolveCity(String id, Document doc){
         NodeList cities = doc.getElementsByTagName("city");
         for(int i = 0; i < cities.getLength(); i++){
-            System.out.println("test");
+//            System.out.println("test");
             Node city = cities.item(i);
             String id2 = city.getChildNodes().item(1).getTextContent();
-            System.out.println(id2 + "   " + id);
+//            System.out.println(id2 + "   " + id);
             if(id2.contains(id)) return city;
         }
         return null;

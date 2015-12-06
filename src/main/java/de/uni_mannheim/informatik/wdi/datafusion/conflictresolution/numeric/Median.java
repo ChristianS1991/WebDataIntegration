@@ -31,6 +31,7 @@ public class Median<RecordType extends Matchable & Fusable> extends
 		}
 
 		Collections.sort(list);
+		System.out.println("listsize" +list.size());
 
 		boolean isEven = list.size() % 2 == 0;
 		if (list.size() == 0) {

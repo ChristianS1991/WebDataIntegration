@@ -69,8 +69,8 @@ public class Countries_Main {
 				"/countries/country");
 		
 		// set dataset metadata
-		ds1.setScore(0.5);
-		ds2.setScore(1.0);
+		ds1.setScore(1.0);
+		ds2.setScore(0.5);
 		ds3.setScore(0.3);
 		ds4.setScore(0.3);
 		ds5.setScore(0.3);
@@ -100,7 +100,7 @@ public class Countries_Main {
 		correspondences.loadCorrespondences(new File("usecase/geography/correspondences/wb_countries_wcp_cities_correspondences.csv"), ds2, ds4);
 
 		// write group size distribution
-		correspondences.writeGroupSizeDistribution(new File("usecase/geography/output/group_size_distribution.csv"));
+		correspondences.writeGroupSizeDistribution(new File("usecase/geography/output/datafusion/group_size_distribution.csv"));
 		
 		// define the fusion strategy
 		DataFusionStrategy<FusableCountry> strategy = new DataFusionStrategy<>(new FusableCountryFactory());
@@ -115,7 +115,7 @@ public class Countries_Main {
 		strategy.addAttributeFuser("GDP", new GdpFuser(), new GdpEvaluationRule());
 //		strategy.addAttributeFuser("Longitude", new LongitudeFuser(), new LongitudeEvaluationRule());
 //		strategy.addAttributeFuser("Latitude", new LatitudeFuser(), new LatitudeEvaluationRule());
-//		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
+		strategy.addAttributeFuser("Cities", new CitiesFuser(), new CitiesEvaluationRule());
 		// create the fusion engine
 		DataFusionEngine<FusableCountry> engine = new DataFusionEngine<>(strategy);
 		
@@ -126,7 +126,7 @@ public class Countries_Main {
 		FusableDataSet<FusableCountry> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/CountriesWithBasicCitiesList.xml"), new CountryXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/CountriesWithCitiesList.xml"), new CountryXMLFormatter());
 		
 		// load the gold standard
 		DataSet<FusableCountry> gs = new FusableDataSet<>();

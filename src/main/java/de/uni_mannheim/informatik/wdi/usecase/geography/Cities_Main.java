@@ -50,9 +50,9 @@ public class Cities_Main {
 	
 		
 		// set dataset metadata
-		ds1.setScore(1); // DBPedia seems to have relative good data, but the data origin is not always transparent
-		ds2.setScore(0.7); // The source of the data set is fully traceable as only litte metadata are provided
-		ds3.setScore(0.5); // Productive open source data of a company, seems to be reliable
+		ds1.setScore(1.0);
+		ds2.setScore(0.5);
+		ds3.setScore(0.7);
 		ds1.setDate(DateTime.parse("2013-01-01"));
 		ds2.setDate(DateTime.parse("2011-10-18")); //Creation date of dataset
 		ds3.setDate(DateTime.parse("2012-08-01")); //Median value of modification date of single entries
@@ -60,9 +60,9 @@ public class Cities_Main {
 		// print dataset density
 		System.out.println("dbp_cities.xml");
 		ds1.printDataSetDensityReport();
-		System.out.println("geonames_cities.xml");
-		ds2.printDataSetDensityReport();
 		System.out.println("wcp_cities.xml");
+		ds2.printDataSetDensityReport();
+		System.out.println("geonames_cities.xml");
 		ds3.printDataSetDensityReport();
 		
 		// load the correspondences
@@ -71,7 +71,7 @@ public class Cities_Main {
 		correspondences.loadCorrespondences(new File("usecase/geography/correspondences/dbp_cities_wcp_cities_correspondences.csv"), ds1, ds2);
 		
 		// write group size distribution
-		correspondences.writeGroupSizeDistribution(new File("usecase/geography/output/group_size_distribution_cities.csv"));
+		correspondences.writeGroupSizeDistribution(new File("usecase/geography/output/datafusion/group_size_distribution_cities.csv"));
 		
 		// define the fusion strategy
 		DataFusionStrategy<FusableCity> strategy = new DataFusionStrategy<>(new FusableCityFactory());
@@ -95,7 +95,7 @@ public class Cities_Main {
 		FusableDataSet<FusableCity> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/CitiesFusedWithoutCountryIdentifier.xml"), new CityXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/CitiesFusedWithoutCountryIdentifier.xml"), new CityXMLFormatter());
 		
 		// load the gold standard
 		DataSet<FusableCity> gs = new FusableDataSet<>();

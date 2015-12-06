@@ -1,6 +1,5 @@
 package de.uni_mannheim.informatik.wdi.usecase.geography;
 
-import java.util.LinkedList;
 import java.util.List;
 
 import org.w3c.dom.Node;
@@ -73,6 +72,8 @@ public class CountryFactory extends MatchableFactory<Country>{
             country.setLatitude(latitude);
         }
         
+        List<City> cities = getObjectListFromChildElement(node, "country_cities", "city", new CityFactory(), provenanceInfo);
+		country.setCities(cities);
         
         return country;
     }
