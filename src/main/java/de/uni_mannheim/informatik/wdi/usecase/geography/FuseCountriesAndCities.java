@@ -23,8 +23,8 @@ public class FuseCountriesAndCities {
     public static void main(String[] args) throws Exception{
         DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
         Document finalFile  = builder.newDocument();
-        Document countries  = builder.parse(new File("usecase/geography/output/datafusion/CountriesWithCitiesList.xml"));
-        Document cities     = builder.parse(new File("usecase/geography/output/datafusion/CitiesFusedWithoutCountryIdentifier.xml"));
+        Document countries  = builder.parse(new File("usecase/geography/output/datafusion/fusedCountries.xml"));
+        Document cities     = builder.parse(new File("usecase/geography/output/datafusion/fusedCities.xml"));
         
         NodeList countriesList = countries.getElementsByTagName("country");
         
@@ -51,7 +51,7 @@ public class FuseCountriesAndCities {
                             
                             Node cityWithContent = resolveCity(city.getChildNodes().item(1).getTextContent(), cities);
                             if(cityWithContent != null){
-                                System.out.println("test");
+//                                System.out.println("test");
                                 if(!contains.contains(cityWithContent.getChildNodes().item(1).getTextContent())){
                                     contains.add(cityWithContent.getChildNodes().item(1).getTextContent());
                                     
@@ -88,7 +88,7 @@ public class FuseCountriesAndCities {
         
         finalFile.appendChild(countriesElement);
         
-        String filename = "usecase/geography/output/datafusion/CountriesInclFusedCities.xml";
+        String filename = "usecase/geography/output/datafusion/fusedCountriesAndCities.xml";
 
         Source source = new DOMSource(finalFile);
 

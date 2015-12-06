@@ -69,6 +69,7 @@ public class Cities_Main {
 		CorrespondenceSet<FusableCity> correspondences = new CorrespondenceSet<>();
 		correspondences.loadCorrespondences(new File("usecase/geography/correspondences/dbp_cities_geonames_cities_correspondences.csv"), ds1, ds3);
 		correspondences.loadCorrespondences(new File("usecase/geography/correspondences/dbp_cities_wcp_cities_correspondences.csv"), ds1, ds2);
+		correspondences.loadCorrespondences(new File("usecase/geography/correspondences/wcp_cities_geonames_cities_correspondences.csv"), ds3, ds2);
 		
 		// write group size distribution
 		correspondences.writeGroupSizeDistribution(new File("usecase/geography/output/datafusion/group_size_distribution_cities.csv"));
@@ -95,7 +96,7 @@ public class Cities_Main {
 		FusableDataSet<FusableCity> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/CitiesFusedWithoutCountryIdentifier.xml"), new CityXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/fusedCities.xml"), new CityXMLFormatter());
 		
 		// load the gold standard
 		DataSet<FusableCity> gs = new FusableDataSet<>();

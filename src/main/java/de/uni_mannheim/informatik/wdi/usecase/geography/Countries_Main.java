@@ -126,7 +126,7 @@ public class Countries_Main {
 		FusableDataSet<FusableCountry> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/CountriesWithCitiesList.xml"), new CountryXMLFormatter());
+		fusedDataSet.writeXML(new File("usecase/geography/output/datafusion/fusedCountries.xml"), new CountryXMLFormatter());
 		
 		// load the gold standard
 		DataSet<FusableCountry> gs = new FusableDataSet<>();

@@ -27,8 +27,8 @@ public class CountryXMLFormatter extends XMLFormatter<FusableCountry> {
 		country.appendChild(createTextElementWithProvenance("population_density", String.valueOf(record.getPopulationDensity()), record.getMergedAttributeProvenance(FusableCountry.POPULATION_DENSITY),doc));
 		country.appendChild(createTextElementWithProvenance("gini", String.valueOf(record.getGini()), record.getMergedAttributeProvenance(FusableCountry.GINI),doc));
 		country.appendChild(createTextElementWithProvenance("gdp", String.valueOf(record.getGdp()), record.getMergedAttributeProvenance(FusableCountry.GDP),doc));
-		country.appendChild(createTextElementWithProvenance("latitude", String.valueOf(record.getLatitude()), record.getMergedAttributeProvenance(FusableCountry.LATITUDE),doc));
-		country.appendChild(createTextElementWithProvenance("longitude", String.valueOf(record.getLongitude()), record.getMergedAttributeProvenance(FusableCountry.LONGITUDE),doc));
+//		country.appendChild(createTextElementWithProvenance("latitude", String.valueOf(record.getLatitude()), record.getMergedAttributeProvenance(FusableCountry.LATITUDE),doc));
+//		country.appendChild(createTextElementWithProvenance("longitude", String.valueOf(record.getLongitude()), record.getMergedAttributeProvenance(FusableCountry.LONGITUDE),doc));
 		country.appendChild(createCitiesElement(record, doc));
 		
 		return country;
